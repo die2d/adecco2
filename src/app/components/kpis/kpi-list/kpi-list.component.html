@@ -1,0 +1,26 @@
+<div class="card mt-5 mb-5">
+  <div class="card-body">
+    <h6 class="test-center"> Lista de Kpis</h6>
+    <table class="table table-sm table-hover">
+      
+      <tbody>
+          <tr *ngFor ="let kpi of kpiList">
+          <td>{{kpi.nombre}}</td>
+          <td>{{kpi.objetivo}}</td> 
+          <td>{{kpi.cargo}}</td> 
+          <td>
+            <a class="btn btn-secondary text-white" (click)="onEdit(kpi)">
+              <i class="far fa-edit"></i>
+              Editar
+            </a>
+            <a class="btn btn-danger text-white" (click)="onDelete(kpi.$key)" >
+              <i class="fas fa-trash-alt"></i>
+              Borrar
+            </a>
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

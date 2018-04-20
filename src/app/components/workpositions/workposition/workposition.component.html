@@ -1,0 +1,27 @@
+<div class="card mt-5 mb-5 bg-light">
+  <div class="card-body">
+    <form #workpositionForm="ngForm" (ngSubmit)="onSubmit(workpositionForm)">
+      <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="workpositionService.selectedWorkposition.$key">
+
+      <div class="form-group">
+        <input 
+          type="text"
+          class="form-control" 
+          name="name"
+          #name="ngModel"
+          [(ngModel)]="workpositionService.selectedWorkposition.name"
+          placeholder="Agrega el nombre del cargo"
+        >
+      </div>
+      
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">
+          <i class="fas fa-plus-circle"></i> Agregar Cargo
+        </button>
+        <button class="btn btn-secondary" type="reset" (click)="resetForm(workpositionForm)">
+          <i class="fas fa-sync-alt"></i> Limpiar
+        </button>
+        </div>
+    </form>
+  </div>
+</div>

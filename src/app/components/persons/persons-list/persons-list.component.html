@@ -1,0 +1,27 @@
+<div class="card mt-5 mb-5">
+  <div class="card-body">
+    <h6 class="text-center"> Lista de Personas</h6>
+    <table class="table table-sm table-hover">
+      
+      <tbody>
+          <tr *ngFor ="let person of personList">
+          <td>{{person.name}}</td>
+          <td>{{person.cargo}}</td> 
+          <td>{{person.cedula}}</td>
+          <td>{{person.ciudad}}</td>
+          <td>
+            <a class="btn btn-secondary text-white" (click)="onEdit(person)">
+              <i class="far fa-edit"></i>
+              Editar
+            </a>
+            <a class="btn btn-danger text-white" (click)="onDelete(person.$key)" >
+              <i class="fas fa-trash-alt"></i>
+              Borrar
+            </a>
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

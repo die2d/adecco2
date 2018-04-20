@@ -1,0 +1,127 @@
+<div class="card mt-5 mb-5 bg-light">
+  <div class="card-body">
+    <form #personForm="ngForm" (ngSubmit)="onSubmit(personForm)">
+      <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="personService.selectedPerson.$key">
+
+      <div class="form-group">
+        <input 
+          type="text"
+          class="form-control" 
+          name="name"
+          #name="ngModel"
+          [(ngModel)]="personService.selectedPerson.name"
+          placeholder="Agrega el nombre de la persona"
+        >
+      </div>
+
+      <div class="form-group">
+        <input 
+          type="text"
+          class="form-control" 
+          name="cedula"
+          #name="ngModel"
+          [(ngModel)]="personService.selectedPerson.cedula"
+          placeholder="Agrega el numero de cedula"
+        >
+      </div>
+
+      <div class="form-group">
+        <input 
+          type="text"
+          class="form-control" 
+          name="area"
+          #name="ngModel"
+          [(ngModel)]="personService.selectedPerson.area"
+          placeholder="Agrega el area"
+        >
+      </div>
+
+      <div class="form-group">
+        <input 
+          type="text"
+          class="form-control" 
+          name="departamento"
+          #name="ngModel"
+          [(ngModel)]="personService.selectedPerson.departamento"
+          placeholder="Agrega el departamento"
+        >
+      </div>
+
+      
+
+      <div class="form-group">
+        <input readonly 
+          type="text"
+          class="form-control" 
+          name="cargo"
+          #name="ngModel"
+          [(ngModel)]="personService.selectedPerson.cargo"
+          placeholder="Selecciona un cargo de la Lista"
+        >
+      </div>
+
+      
+
+      <div class="form-group">
+          <input  
+            type="text"
+            class="form-control" 
+            name="ciudad"
+            #name="ngModel"
+            [(ngModel)]="personService.selectedPerson.ciudad"
+            placeholder="Ingresa una ciudad"
+          >
+        </div>
+
+      
+      
+<!--
+      <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <label class="input-group-text" for="inputGroupSelect01">Ciudad</label>
+          </div>
+          <select name="ciudad"
+          #name="ngModel"
+          [(ngModel)]="personService.selectedPerson.ciudad"
+          class="custom-select">
+            <option value="Quito">Quito</option>
+            <option value="Guayaquil">Guayaquil</option>
+            <option value="Cuenca">Cuenca</option>
+            <option value="Loja">Loja</option>
+            <option value="Napo">Napo</option>
+          </select>
+        </div>-->
+
+        <div class="col-sm-10 mb-3 mt-6">
+          <div class="form-check mt-4">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="false" checked  name="evaluador"
+            #name="ngModel"
+            [(ngModel)]="personService.selectedPerson.evaluador">
+            <label class="form-check-label" for="gridRadios1">
+              Evaluado
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="true"  name="evaluador"
+            #name="ngModel"
+            [(ngModel)]="personService.selectedPerson.evaluador">
+            <label class="form-check-label" for="gridRadios2">
+              Evaluador
+            </label>
+          </div>
+        </div>
+        
+     
+
+    
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">
+          <i class="fas fa-plus-circle"></i> Agregar
+        </button>
+        <button class="btn btn-secondary" type="reset" (click)="resetForm(personForm)">
+          <i class="fas fa-sync-alt"></i> Limpiar
+        </button>
+        </div>
+    </form>
+  </div>
+</div>

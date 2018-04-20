@@ -1,0 +1,22 @@
+<div class="card mt-5 mb-5">
+  <div class="card-body">
+    <h6 class="text-center"> Lista de Empleados a evaluar</h6>
+    <table class="table table-sm table-hover">
+      
+      <tbody>
+          <tr *ngFor ="let person of personListEvaluados">
+          <td>{{person.name}}</td>
+          <td>{{person.cargo}}</td> 
+          
+          <td>
+            <a class="btn btn-success text-white" (click)="onEdit(person.name)">
+              <i class="far fa-hand-pointer"></i>
+              Seleccionar
+            </a>
+           
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

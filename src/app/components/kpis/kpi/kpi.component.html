@@ -1,0 +1,45 @@
+<div class="card mt-5 mb-5 bg-danger">
+  <div class="card-body">
+    <form #kpiForm="ngForm" (ngSubmit)="onSubmit(kpiForm)">
+      <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="kpiService.selectedKpi.$key">
+      <input type="text"  name="cargo" #name="ngModel" [(ngModel)]="kpiService.selectedKpi.cargo">
+ 
+      
+
+     
+      <div class="form-group">
+        <input 
+          type="text"
+          class="form-control" 
+          name="nombre"
+          #name="ngModel"
+          [(ngModel)]="kpiService.selectedKpi.nombre"
+          placeholder="Agrega el nombre del kpi"
+        >
+      </div>
+      <div class="form-group">
+        <input 
+          type="text"
+          class="form-control" 
+          name="objetivo"
+          #name="ngModel"
+          [(ngModel)]="kpiService.selectedKpi.objetivo"
+          placeholder="Agrega el objetivo del kpi"
+        >
+      </div>
+
+      
+
+      
+      
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">
+          <i class="fas fa-plus-circle"></i> Agregar kpi
+        </button>
+        <button class="btn btn-secondary" type="reset" (click)="resetForm(kpiForm)">
+          <i class="fas fa-sync-alt"></i> Limpiar
+        </button>
+        </div>
+    </form>
+  </div>
+</div>

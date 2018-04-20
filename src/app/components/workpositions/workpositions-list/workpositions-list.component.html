@@ -1,0 +1,24 @@
+<div class="card mt-5 mb-5">
+  <div class="card-body">
+    <h6 class="test-center"> Lista de Cargos</h6>
+    <table class="table table-sm table-hover table-light">
+      
+      <tbody>
+          <tr *ngFor ="let workposition of workpositionsList">
+          <td>{{workposition.name}}</td>
+          <td>
+            <a class="btn btn-secondary text-white" (click)="onEdit(workposition)">
+              <i class="far fa-edit"></i>
+              Editar
+            </a>
+            <a class="btn btn-danger text-white" (click)="onDelete(workposition.$key)" >
+              <i class="fas fa-trash-alt"></i>
+              Borrar
+            </a>
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

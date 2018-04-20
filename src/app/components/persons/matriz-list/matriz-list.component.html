@@ -1,0 +1,32 @@
+<div class="card mt-5 mb-5">
+  <div class="card-body">
+    <h6 class="text-center"> Matriz de Evaluaciones</h6>
+    <table class="table table-sm table-hover">
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Evaluador</th>
+          <th scope="col">Persona a Evaluar</th>
+        </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor ="let matriz of matrizList">
+          <td>{{matriz.evaluador}}</td>
+          <td>{{matriz.evaluado}}</td> 
+          
+          
+          <td>
+              <a class="btn btn-info text-white" (click)="onEdit(matriz)">
+              <i class="far fa-edit"></i>
+              
+              </a>
+            <a class="btn btn-danger text-white" (click)="onDelete(matriz.$key)" >
+              <i class="fas fa-trash-alt"></i>
+             
+            </a>
+          </td>
+
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="card mt-5 mb-5 bg-success">
+  <div class="card-body">
+    <form #competencyForm="ngForm" (ngSubmit)="onSubmit(competencyForm)">
+      <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="competencyService.selectedCompetency.$key">
+
+      <div class="form-group">
+        <input 
+          type="text"
+          class="form-control" 
+          name="name"
+          #name="ngModel"
+          [(ngModel)]="competencyService.selectedCompetency.name"
+          placeholder="Agrega el nombre de la competencia"
+        >
+      </div>
+      
+    
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">
+          <i class="fas fa-plus-circle"></i> Agregar
+        </button>
+        <button class="btn btn-secondary" type="reset" (click)="resetForm(personForm)">
+          <i class="fas fa-sync-alt"></i> Limpiar
+        </button>
+        </div>
+    </form>
+  </div>
+</div>
