@@ -7,17 +7,6 @@
         <input 
           type="text"
           class="form-control" 
-          name="name"
-          #name="ngModel"
-          [(ngModel)]="personService.selectedPerson.name"
-          placeholder="Agrega el nombre de la persona"
-        >
-      </div>
-
-      <div class="form-group">
-        <input 
-          type="text"
-          class="form-control" 
           name="cedula"
           #name="ngModel"
           [(ngModel)]="personService.selectedPerson.cedula"
@@ -25,6 +14,51 @@
         >
       </div>
 
+      <div class="form-group">
+          <input 
+            type="text"
+            class="form-control" 
+            name="name"
+            #name="ngModel"
+            [(ngModel)]="personService.selectedPerson.name"
+            placeholder="Agrega el nombre de la persona"
+          >
+      </div>
+
+      <div class="form-group">
+            <input readonly 
+              type="text"
+              class="form-control" 
+              name="cargo"
+              #name="ngModel"
+              [(ngModel)]="personService.selectedPerson.cargo"
+              placeholder="Selecciona un cargo de la Lista"
+            >
+      </div>
+
+      <div class="form-group">
+          <input 
+            type="text"
+            class="form-control" 
+            name="estructurafisicacostos"
+            #name="ngModel"
+            [(ngModel)]="personService.selectedPerson.estructurafisicacostos"
+            placeholder="Agrega la estructura física de costos"
+          >
+        </div>
+
+        <div class="form-group">
+            <input 
+              type="text"
+              class="form-control" 
+              name="estructuraorganizacional"
+              #name="ngModel"
+              [(ngModel)]="personService.selectedPerson.estructuraorganizacional"
+              placeholder="Agrega la estructura organizacional"
+            >
+          </div>
+
+        
       <div class="form-group">
         <input 
           type="text"
@@ -36,31 +70,6 @@
         >
       </div>
 
-      <div class="form-group">
-        <input 
-          type="text"
-          class="form-control" 
-          name="departamento"
-          #name="ngModel"
-          [(ngModel)]="personService.selectedPerson.departamento"
-          placeholder="Agrega el departamento"
-        >
-      </div>
-
-      
-
-      <div class="form-group">
-        <input readonly 
-          type="text"
-          class="form-control" 
-          name="cargo"
-          #name="ngModel"
-          [(ngModel)]="personService.selectedPerson.cargo"
-          placeholder="Selecciona un cargo de la Lista"
-        >
-      </div>
-
-      
 
       <div class="form-group">
           <input  
@@ -69,13 +78,19 @@
             name="ciudad"
             #name="ngModel"
             [(ngModel)]="personService.selectedPerson.ciudad"
-            placeholder="Ingresa una ciudad"
+            placeholder="Selecciona una sucursal"
           >
         </div>
-
+      
+      
       
       
 <!--
+
+
+ 
+
+
       <div class="input-group mb-3">
           <div class="input-group-prepend">
             <label class="input-group-text" for="inputGroupSelect01">Ciudad</label>
@@ -90,7 +105,7 @@
             <option value="Loja">Loja</option>
             <option value="Napo">Napo</option>
           </select>
-        </div>-->
+        </div>
 
         <div class="col-sm-10 mb-3 mt-6">
           <div class="form-check mt-4">
@@ -110,7 +125,7 @@
             </label>
           </div>
         </div>
-        
+        -->
      
 
     

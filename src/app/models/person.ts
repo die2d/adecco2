@@ -3,8 +3,8 @@ export class Person {
     name: string;
     cedula: number;
     area: string;
-    departamento: string;
+    estructuraorganizacional: string;
+    estructurafisicacostos: string;
     cargo: string;
     ciudad: string;
-    evaluador: string;
 }

@@ -11,7 +11,7 @@ export class PersonService {
 
   personList: AngularFireList<any>;
   selectedPerson: Person = new Person();
-  ;
+  
 
   constructor(private firebase: AngularFireDatabase) { 
   
@@ -26,11 +26,11 @@ export class PersonService {
       name: person.name,
       cedula: person.cedula,
       area: person.area,
-      departamento: person.departamento,
+      estructuraorganizacional: person.estructuraorganizacional,
+      estructurafisicacostos: person.estructurafisicacostos,
       cargo: person.cargo,
       ciudad: person.ciudad,
-      evaluador: person.evaluador
-         
+            
     })
     
 
@@ -41,10 +41,10 @@ export class PersonService {
       name: person.name,
       cedula: person.cedula,
       area: person.area,
-      departamento: person.departamento,
+      estructuraorganizacional: person.estructuraorganizacional,
+      estructurafisicacostos: person.estructurafisicacostos,
       cargo: person.cargo,
       ciudad: person.ciudad,
-      evaluador: person.evaluador
     })
    
   }
