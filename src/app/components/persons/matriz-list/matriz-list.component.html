@@ -9,7 +9,7 @@
         </tr>
       </thead>
       <tbody>
-          <tr *ngFor ="let matriz of matrizList">
+          <tr *ngFor ="let matriz of matrizList |  paginate: { itemsPerPage: 4, currentPage: p4, id: 'cuatro' }; let i = index">
           <td>{{matriz.evaluador}}</td>
           <td>{{matriz.evaluado}}</td> 
           
@@ -27,6 +27,7 @@
 
         </tr>
       </tbody>
+      <pagination-controls (pageChange)="p4 = $event" id="cuatro"></pagination-controls>
     </table>
   </div>
 </div>

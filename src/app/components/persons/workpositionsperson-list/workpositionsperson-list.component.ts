@@ -17,6 +17,8 @@ import { element } from 'protractor';
 //Clase Workposition
 import { Workposition } from '../../../models/workposition';
 
+
+
 @Component({
   selector: 'app-workpositionsperson-list',
   templateUrl: './workpositionsperson-list.component.html',
@@ -25,6 +27,7 @@ import { Workposition } from '../../../models/workposition';
 export class WorkpositionspersonListComponent implements OnInit {
 
   workpositionsList: Workposition[];
+  p2: number = 1;
 
   constructor(
     private workpositionService: WorkpositionService,

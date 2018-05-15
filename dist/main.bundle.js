@@ -27,7 +27,7 @@ module.exports = ""
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n   <div class=\"card text-white bg-danger mt-3 mb-3\" style=\"width: 12rem;\">\n      <div class=\"card-body\">\n          \n        </div>\n    <img class=\"card-img-top\" src=\"http://www.adecco.com.ec/images/adecco.png\" alt=\"Card image cap\">\n    <div class=\"card-body\">\n      <p class=\"card-text\">App en Desarrollo.</p>\n    </div>\n  </div>\n  \n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-briefcase\"></i>\n    Administración de cargos\n  </a>\n</nav>\n\n<app-workpositions></app-workpositions>\n\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-users\"></i>\n   \n  Administración de Personas\n  </a>\n</nav>\n\n<app-persons></app-persons>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-users\"></i>\n    Administracion de competencias\n  </a>\n</nav>\n<app-competencies></app-competencies>\n\n\n\n\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-file-alt\"></i>\n   \n  Administracion de Kpis\n  </a>\n</nav>\n\n<app-kpis></app-kpis>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-shopping-cart\"></i>\n   \n  Designacion de evaluaciones\n  </a>\n</nav>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-clipboard-check\"></i>\n   \n  Evaluacion (Evaluador)\n  </a>\n</nav>"
+module.exports = "\n   <div class=\"card text-white bg-danger mt-3 mb-3\" style=\"width: 12rem;\">\n      <div class=\"card-body\">\n          \n        </div>\n    <img class=\"card-img-top\" src=\"http://www.adecco.com.ec/images/adecco.png\" alt=\"Card image cap\">\n    <div class=\"card-body\">\n      <p class=\"card-text\">App en Desarrollo.</p>\n    </div>\n  </div>\n  \n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-briefcase\"></i>\n    Administración de cargos\n  </a>\n</nav>\n\n<app-workpositions></app-workpositions>\n\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-users\"></i>\n   \n  Administración de Personas\n  </a>\n</nav>\n\n<app-persons></app-persons>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-users\"></i>\n    Administracion de competencias\n  </a>\n</nav>\n<app-competencies></app-competencies>\n\n\n\n\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-file-alt\"></i>\n   \n  Administracion de Kpis\n  </a>\n</nav>\n\n<!-- <app-kpis></app-kpis>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-shopping-cart\"></i>\n   \n  Designacion de evaluaciones\n  </a>\n</nav>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-clipboard-check\"></i>\n   \n  Evaluacion (Evaluador)\n  </a>\n</nav>\n-->\n"
 
 /***/ }),
 
@@ -49,7 +49,7 @@ var AppComponent = /** @class */ (function () {
         this.title = 'app';
     }
     AppComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-root',
             template: __webpack_require__("./src/app/app.component.html"),
             styles: [__webpack_require__("./src/app/app.component.css")]
@@ -70,42 +70,49 @@ var AppComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/platform-browser.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__("./node_modules/@angular/forms/esm5/forms.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/animations.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/esm5/ngx-toastr.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__app_component__ = __webpack_require__("./src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_angularfire2__ = __webpack_require__("./node_modules/angularfire2/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_angularfire2_database__ = __webpack_require__("./node_modules/angularfire2/database/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__environments_environment__ = __webpack_require__("./src/environments/environment.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__components_persons_persons_component__ = __webpack_require__("./src/app/components/persons/persons.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_persons_persons_list_persons_list_component__ = __webpack_require__("./src/app/components/persons/persons-list/persons-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_persons_person_person_component__ = __webpack_require__("./src/app/components/persons/person/person.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__services_person_service__ = __webpack_require__("./src/app/services/person.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_kpis_kpis_component__ = __webpack_require__("./src/app/components/kpis/kpis.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_kpis_kpi_list_kpi_list_component__ = __webpack_require__("./src/app/components/kpis/kpi-list/kpi-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_kpis_kpi_kpi_component__ = __webpack_require__("./src/app/components/kpis/kpi/kpi.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__services_kpi_service__ = __webpack_require__("./src/app/services/kpi.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_workpositions_workpositions_component__ = __webpack_require__("./src/app/components/workpositions/workpositions.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_workpositions_workposition_workposition_component__ = __webpack_require__("./src/app/components/workpositions/workposition/workposition.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_workpositions_workpositions_list_workpositions_list_component__ = __webpack_require__("./src/app/components/workpositions/workpositions-list/workpositions-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__services_workposition_service__ = __webpack_require__("./src/app/services/workposition.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_competencies_competencies_component__ = __webpack_require__("./src/app/components/competencies/competencies.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_competencies_competency_competency_component__ = __webpack_require__("./src/app/components/competencies/competency/competency.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_competencies_competencies_list_competencies_list_component__ = __webpack_require__("./src/app/components/competencies/competencies-list/competencies-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__services_competency_service__ = __webpack_require__("./src/app/services/competency.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_kpis_workpositionskpi_list_workpositionskpi_list_component__ = __webpack_require__("./src/app/components/kpis/workpositionskpi-list/workpositionskpi-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_kpis_competencieskpi_list_competencieskpi_list_component__ = __webpack_require__("./src/app/components/kpis/competencieskpi-list/competencieskpi-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_persons_evaluadores_evaluadores_component__ = __webpack_require__("./src/app/components/persons/evaluadores/evaluadores.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_persons_matriz_matriz_component__ = __webpack_require__("./src/app/components/persons/matriz/matriz.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_persons_evaluados_evaluados_component__ = __webpack_require__("./src/app/components/persons/evaluados/evaluados.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_persons_matriz_list_matriz_list_component__ = __webpack_require__("./src/app/components/persons/matriz-list/matriz-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__services_matriz_service__ = __webpack_require__("./src/app/services/matriz.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_persons_workpositionsperson_list_workpositionsperson_list_component__ = __webpack_require__("./src/app/components/persons/workpositionsperson-list/workpositionsperson-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ng2_search_filter__ = __webpack_require__("./node_modules/ng2-search-filter/ng2-search-filter.es5.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_order_pipe__ = __webpack_require__("./node_modules/ng2-order-pipe/dist/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ng2_order_pipe___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_ng2_order_pipe__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/animations.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/esm5/ngx-toastr.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__("./src/app/app.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angularfire2__ = __webpack_require__("./node_modules/angularfire2/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_angularfire2_database__ = __webpack_require__("./node_modules/angularfire2/database/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__environments_environment__ = __webpack_require__("./src/environments/environment.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_persons_persons_component__ = __webpack_require__("./src/app/components/persons/persons.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_persons_persons_list_persons_list_component__ = __webpack_require__("./src/app/components/persons/persons-list/persons-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_persons_person_person_component__ = __webpack_require__("./src/app/components/persons/person/person.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__services_person_service__ = __webpack_require__("./src/app/services/person.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_kpis_kpis_component__ = __webpack_require__("./src/app/components/kpis/kpis.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_kpis_kpi_list_kpi_list_component__ = __webpack_require__("./src/app/components/kpis/kpi-list/kpi-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_kpis_kpi_kpi_component__ = __webpack_require__("./src/app/components/kpis/kpi/kpi.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__services_kpi_service__ = __webpack_require__("./src/app/services/kpi.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_workpositions_workpositions_component__ = __webpack_require__("./src/app/components/workpositions/workpositions.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_workpositions_workposition_workposition_component__ = __webpack_require__("./src/app/components/workpositions/workposition/workposition.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_workpositions_workpositions_list_workpositions_list_component__ = __webpack_require__("./src/app/components/workpositions/workpositions-list/workpositions-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__services_workposition_service__ = __webpack_require__("./src/app/services/workposition.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_competencies_competencies_component__ = __webpack_require__("./src/app/components/competencies/competencies.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_competencies_competency_competency_component__ = __webpack_require__("./src/app/components/competencies/competency/competency.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_competencies_competencies_list_competencies_list_component__ = __webpack_require__("./src/app/components/competencies/competencies-list/competencies-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__services_competency_service__ = __webpack_require__("./src/app/services/competency.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_kpis_workpositionskpi_list_workpositionskpi_list_component__ = __webpack_require__("./src/app/components/kpis/workpositionskpi-list/workpositionskpi-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_kpis_competencieskpi_list_competencieskpi_list_component__ = __webpack_require__("./src/app/components/kpis/competencieskpi-list/competencieskpi-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_persons_evaluadores_evaluadores_component__ = __webpack_require__("./src/app/components/persons/evaluadores/evaluadores.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_persons_matriz_matriz_component__ = __webpack_require__("./src/app/components/persons/matriz/matriz.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_persons_evaluados_evaluados_component__ = __webpack_require__("./src/app/components/persons/evaluados/evaluados.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_persons_matriz_list_matriz_list_component__ = __webpack_require__("./src/app/components/persons/matriz-list/matriz-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__services_matriz_service__ = __webpack_require__("./src/app/services/matriz.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__components_persons_workpositionsperson_list_workpositionsperson_list_component__ = __webpack_require__("./src/app/components/persons/workpositionsperson-list/workpositionsperson-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__services_evaluadores_service__ = __webpack_require__("./src/app/services/evaluadores.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36_ngx_pagination__ = __webpack_require__("./node_modules/ngx-pagination/dist/ngx-pagination.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
 
 
 
@@ -146,53 +153,59 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["G" /* NgModule */])({
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */],
-                __WEBPACK_IMPORTED_MODULE_9__components_persons_persons_component__["a" /* PersonsComponent */],
-                __WEBPACK_IMPORTED_MODULE_10__components_persons_persons_list_persons_list_component__["a" /* PersonsListComponent */],
-                __WEBPACK_IMPORTED_MODULE_11__components_persons_person_person_component__["a" /* PersonComponent */],
-                __WEBPACK_IMPORTED_MODULE_13__components_kpis_kpis_component__["a" /* KpisComponent */],
-                __WEBPACK_IMPORTED_MODULE_14__components_kpis_kpi_list_kpi_list_component__["a" /* KpiListComponent */],
-                __WEBPACK_IMPORTED_MODULE_15__components_kpis_kpi_kpi_component__["a" /* KpiComponent */],
-                __WEBPACK_IMPORTED_MODULE_17__components_workpositions_workpositions_component__["a" /* WorkpositionsComponent */],
-                __WEBPACK_IMPORTED_MODULE_18__components_workpositions_workposition_workposition_component__["a" /* WorkpositionComponent */],
-                __WEBPACK_IMPORTED_MODULE_19__components_workpositions_workpositions_list_workpositions_list_component__["a" /* WorkpositionsListComponent */],
-                __WEBPACK_IMPORTED_MODULE_21__components_competencies_competencies_component__["a" /* CompetenciesComponent */],
-                __WEBPACK_IMPORTED_MODULE_22__components_competencies_competency_competency_component__["a" /* CompetencyComponent */],
-                __WEBPACK_IMPORTED_MODULE_23__components_competencies_competencies_list_competencies_list_component__["a" /* CompetenciesListComponent */],
-                __WEBPACK_IMPORTED_MODULE_25__components_kpis_workpositionskpi_list_workpositionskpi_list_component__["a" /* WorkpositionskpiListComponent */],
-                __WEBPACK_IMPORTED_MODULE_26__components_kpis_competencieskpi_list_competencieskpi_list_component__["a" /* CompetencieskpiListComponent */],
-                __WEBPACK_IMPORTED_MODULE_27__components_persons_evaluadores_evaluadores_component__["a" /* EvaluadoresComponent */],
-                __WEBPACK_IMPORTED_MODULE_28__components_persons_matriz_matriz_component__["a" /* MatrizComponent */],
-                __WEBPACK_IMPORTED_MODULE_29__components_persons_evaluados_evaluados_component__["a" /* EvaluadosComponent */],
-                __WEBPACK_IMPORTED_MODULE_30__components_persons_matriz_list_matriz_list_component__["a" /* MatrizListComponent */],
-                __WEBPACK_IMPORTED_MODULE_32__components_persons_workpositionsperson_list_workpositionsperson_list_component__["a" /* WorkpositionspersonListComponent */]
+                __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */],
+                __WEBPACK_IMPORTED_MODULE_11__components_persons_persons_component__["a" /* PersonsComponent */],
+                __WEBPACK_IMPORTED_MODULE_12__components_persons_persons_list_persons_list_component__["a" /* PersonsListComponent */],
+                __WEBPACK_IMPORTED_MODULE_13__components_persons_person_person_component__["a" /* PersonComponent */],
+                __WEBPACK_IMPORTED_MODULE_15__components_kpis_kpis_component__["a" /* KpisComponent */],
+                __WEBPACK_IMPORTED_MODULE_16__components_kpis_kpi_list_kpi_list_component__["a" /* KpiListComponent */],
+                __WEBPACK_IMPORTED_MODULE_17__components_kpis_kpi_kpi_component__["a" /* KpiComponent */],
+                __WEBPACK_IMPORTED_MODULE_19__components_workpositions_workpositions_component__["a" /* WorkpositionsComponent */],
+                __WEBPACK_IMPORTED_MODULE_20__components_workpositions_workposition_workposition_component__["a" /* WorkpositionComponent */],
+                __WEBPACK_IMPORTED_MODULE_21__components_workpositions_workpositions_list_workpositions_list_component__["a" /* WorkpositionsListComponent */],
+                __WEBPACK_IMPORTED_MODULE_23__components_competencies_competencies_component__["a" /* CompetenciesComponent */],
+                __WEBPACK_IMPORTED_MODULE_24__components_competencies_competency_competency_component__["a" /* CompetencyComponent */],
+                __WEBPACK_IMPORTED_MODULE_25__components_competencies_competencies_list_competencies_list_component__["a" /* CompetenciesListComponent */],
+                __WEBPACK_IMPORTED_MODULE_27__components_kpis_workpositionskpi_list_workpositionskpi_list_component__["a" /* WorkpositionskpiListComponent */],
+                __WEBPACK_IMPORTED_MODULE_28__components_kpis_competencieskpi_list_competencieskpi_list_component__["a" /* CompetencieskpiListComponent */],
+                __WEBPACK_IMPORTED_MODULE_29__components_persons_evaluadores_evaluadores_component__["a" /* EvaluadoresComponent */],
+                __WEBPACK_IMPORTED_MODULE_30__components_persons_matriz_matriz_component__["a" /* MatrizComponent */],
+                __WEBPACK_IMPORTED_MODULE_31__components_persons_evaluados_evaluados_component__["a" /* EvaluadosComponent */],
+                __WEBPACK_IMPORTED_MODULE_32__components_persons_matriz_list_matriz_list_component__["a" /* MatrizListComponent */],
+                __WEBPACK_IMPORTED_MODULE_34__components_persons_workpositionsperson_list_workpositionsperson_list_component__["a" /* WorkpositionspersonListComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 //Para referenciar la BD en la app
-                __WEBPACK_IMPORTED_MODULE_6_angularfire2__["a" /* AngularFireModule */].initializeApp(__WEBPACK_IMPORTED_MODULE_8__environments_environment__["a" /* environment */].firebase),
-                __WEBPACK_IMPORTED_MODULE_7_angularfire2_database__["b" /* AngularFireDatabaseModule */],
+                __WEBPACK_IMPORTED_MODULE_8_angularfire2__["a" /* AngularFireModule */].initializeApp(__WEBPACK_IMPORTED_MODULE_10__environments_environment__["a" /* environment */].firebase),
+                __WEBPACK_IMPORTED_MODULE_9_angularfire2_database__["b" /* AngularFireDatabaseModule */],
+                __WEBPACK_IMPORTED_MODULE_36_ngx_pagination__["a" /* NgxPaginationModule */],
+                __WEBPACK_IMPORTED_MODULE_3_ng2_search_filter__["a" /* Ng2SearchPipeModule */],
                 //
                 __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
+                __WEBPACK_IMPORTED_MODULE_4_ng2_order_pipe__["Ng2OrderModule"],
                 //
-                __WEBPACK_IMPORTED_MODULE_3__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
-                __WEBPACK_IMPORTED_MODULE_4_ngx_toastr__["a" /* ToastrModule */].forRoot()
+                __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
+                __WEBPACK_IMPORTED_MODULE_6_ngx_toastr__["a" /* ToastrModule */].forRoot()
             ],
             providers: [
                 //servicios
-                __WEBPACK_IMPORTED_MODULE_12__services_person_service__["a" /* PersonService */],
-                __WEBPACK_IMPORTED_MODULE_16__services_kpi_service__["a" /* KpiService */],
-                __WEBPACK_IMPORTED_MODULE_20__services_workposition_service__["a" /* WorkpositionService */],
-                __WEBPACK_IMPORTED_MODULE_24__services_competency_service__["a" /* CompetencyService */],
-                __WEBPACK_IMPORTED_MODULE_31__services_matriz_service__["a" /* MatrizService */]
+                __WEBPACK_IMPORTED_MODULE_14__services_person_service__["a" /* PersonService */],
+                __WEBPACK_IMPORTED_MODULE_18__services_kpi_service__["a" /* KpiService */],
+                __WEBPACK_IMPORTED_MODULE_22__services_workposition_service__["a" /* WorkpositionService */],
+                __WEBPACK_IMPORTED_MODULE_26__services_competency_service__["a" /* CompetencyService */],
+                __WEBPACK_IMPORTED_MODULE_33__services_matriz_service__["a" /* MatrizService */],
+                __WEBPACK_IMPORTED_MODULE_35__services_evaluadores_service__["a" /* EvaluadoresService */]
             ],
-            bootstrap: [__WEBPACK_IMPORTED_MODULE_5__app_component__["a" /* AppComponent */]]
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */]]
         })
     ], AppModule);
     return AppModule;
@@ -266,7 +279,7 @@ var CompetenciesListComponent = /** @class */ (function () {
         }
     };
     CompetenciesListComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-competencies-list',
             template: __webpack_require__("./src/app/components/competencies/competencies-list/competencies-list.component.html"),
             styles: [__webpack_require__("./src/app/components/competencies/competencies-list/competencies-list.component.css")]
@@ -317,7 +330,7 @@ var CompetenciesComponent = /** @class */ (function () {
     CompetenciesComponent.prototype.ngOnInit = function () {
     };
     CompetenciesComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-competencies',
             template: __webpack_require__("./src/app/components/competencies/competencies.component.html"),
             styles: [__webpack_require__("./src/app/components/competencies/competencies.component.css")]
@@ -395,7 +408,7 @@ var CompetencyComponent = /** @class */ (function () {
         this.competencyService.selectedCompetency = new __WEBPACK_IMPORTED_MODULE_3__models_competency__["a" /* Competency */]();
     };
     CompetencyComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-competency',
             template: __webpack_require__("./src/app/components/competencies/competency/competency.component.html"),
             styles: [__webpack_require__("./src/app/components/competencies/competency/competency.component.css")]
@@ -470,7 +483,7 @@ var CompetencieskpiListComponent = /** @class */ (function () {
     CompetencieskpiListComponent.prototype.onEdit = function (name) {
     };
     CompetencieskpiListComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-competencieskpi-list',
             template: __webpack_require__("./src/app/components/kpis/competencieskpi-list/competencieskpi-list.component.html"),
             styles: [__webpack_require__("./src/app/components/kpis/competencieskpi-list/competencieskpi-list.component.css")]
@@ -550,7 +563,7 @@ var KpiListComponent = /** @class */ (function () {
         }
     };
     KpiListComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-kpi-list',
             template: __webpack_require__("./src/app/components/kpis/kpi-list/kpi-list.component.html"),
             styles: [__webpack_require__("./src/app/components/kpis/kpi-list/kpi-list.component.css")]
@@ -633,7 +646,7 @@ var KpiComponent = /** @class */ (function () {
         this.kpiService.selectedKpi = new __WEBPACK_IMPORTED_MODULE_3__models_kpi__["a" /* Kpi */]();
     };
     KpiComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-kpi',
             template: __webpack_require__("./src/app/components/kpis/kpi/kpi.component.html"),
             styles: [__webpack_require__("./src/app/components/kpis/kpi/kpi.component.css")]
@@ -684,7 +697,7 @@ var KpisComponent = /** @class */ (function () {
     KpisComponent.prototype.ngOnInit = function () {
     };
     KpisComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-kpis',
             template: __webpack_require__("./src/app/components/kpis/kpis.component.html"),
             styles: [__webpack_require__("./src/app/components/kpis/kpis.component.css")]
@@ -760,7 +773,7 @@ var WorkpositionskpiListComponent = /** @class */ (function () {
         this.kpiService.selectedKpi.cargo = cargo;
     };
     WorkpositionskpiListComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-workpositionskpi-list',
             template: __webpack_require__("./src/app/components/kpis/workpositionskpi-list/workpositionskpi-list.component.html"),
             styles: [__webpack_require__("./src/app/components/kpis/workpositionskpi-list/workpositionskpi-list.component.css")]
@@ -786,7 +799,7 @@ module.exports = ""
 /***/ "./src/app/components/persons/evaluadores/evaluadores.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"text-center\"> Lista de Evaluadores</h6>\n    <table class=\"table table-sm table-hover\">\n      \n      <tbody>\n          <tr *ngFor =\"let person of personListEvaluadores\">\n          <td>{{person.name}}</td>\n          <td>{{person.cargo}}</td> \n          \n          <td>\n            <a class=\"btn btn-success text-white\" (click)=\"onEdit(person.name)\">\n              <i class=\"far fa-hand-pointer\"></i>\n              Seleccionar \n            </a>\n            \n          </td>\n\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>\n"
+module.exports = "<div class=\"card  mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"text-center\"> Lista de Evaluadores</h6>\n    <nav class=\"navbar\">\n        <input placeholder=\"Escribe el evaluador a buscar\" class=\"form-control\" type=\"text\" name=\"search\" [(ngModel)]=\"filter\">      \n      </nav>\n    <table class=\"table table-sm table-hover\">\n      \n      <tbody>\n          <tr *ngFor =\"let person of personListEvaluadores| filter:filter |  paginate: { itemsPerPage: 5, currentPage: p6, id: 'seis' }; let i = index\">\n          <td>{{person.name}}</td>\n          <td>{{person.cargo}}</td> \n          \n          <td>\n            <a class=\"btn btn-success text-white\" (click)=\"onEdit(person.name)\">\n              <i class=\"far fa-hand-pointer\"></i>\n               \n            </a>\n            \n          </td>\n\n          <td>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(person.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n              \n            </a>\n          </td>\n\n        </tr>\n      </tbody>\n      <pagination-controls (pageChange)=\"p6 = $event\" id=\"seis\"></pagination-controls>\n    </table>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -796,7 +809,7 @@ module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EvaluadoresComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_person_service__ = __webpack_require__("./src/app/services/person.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_evaluadores_service__ = __webpack_require__("./src/app/services/evaluadores.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_matriz_service__ = __webpack_require__("./src/app/services/matriz.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/esm5/ngx-toastr.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -815,36 +828,41 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 //toastr
 
 var EvaluadoresComponent = /** @class */ (function () {
-    function EvaluadoresComponent(personService, matrizService, toastr) {
-        this.personService = personService;
+    function EvaluadoresComponent(evaluadoresService, matrizService, toastr) {
+        this.evaluadoresService = evaluadoresService;
         this.matrizService = matrizService;
         this.toastr = toastr;
+        this.p6 = 1;
     }
     EvaluadoresComponent.prototype.ngOnInit = function () {
         var _this = this;
-        this.personService.getPersons()
+        this.evaluadoresService.getPersons()
             .snapshotChanges()
             .subscribe(function (item) {
             _this, _this.personListEvaluadores = [];
             item.forEach(function (element) {
                 var x = element.payload.toJSON();
                 x["$key"] = element.key;
-                if (x["evaluador"] == "true") {
-                    _this.personListEvaluadores.push(x);
-                }
+                _this.personListEvaluadores.push(x);
             });
         });
     };
     EvaluadoresComponent.prototype.onEdit = function (evaluador) {
         this.matrizService.selectedMatriz.evaluador = evaluador;
     };
+    EvaluadoresComponent.prototype.onDelete = function ($key) {
+        if (confirm('Seguro que desea eliminar la propiedad evaluador de esta personapermanentemente?')) {
+            this.evaluadoresService.deletePerson($key);
+            this.toastr.success('Operacion Completada', 'Persona Eliminada');
+        }
+    };
     EvaluadoresComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-evaluadores',
             template: __webpack_require__("./src/app/components/persons/evaluadores/evaluadores.component.html"),
             styles: [__webpack_require__("./src/app/components/persons/evaluadores/evaluadores.component.css")]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_person_service__["a" /* PersonService */],
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_evaluadores_service__["a" /* EvaluadoresService */],
             __WEBPACK_IMPORTED_MODULE_2__services_matriz_service__["a" /* MatrizService */],
             __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__["b" /* ToastrService */]])
     ], EvaluadoresComponent);
@@ -865,7 +883,7 @@ module.exports = ""
 /***/ "./src/app/components/persons/evaluados/evaluados.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"text-center\"> Lista de Empleados a evaluar</h6>\n    <table class=\"table table-sm table-hover\">\n      \n      <tbody>\n          <tr *ngFor =\"let person of personListEvaluados\">\n          <td>{{person.name}}</td>\n          <td>{{person.cargo}}</td> \n          \n          <td>\n            <a class=\"btn btn-success text-white\" (click)=\"onEdit(person.name)\">\n              <i class=\"far fa-hand-pointer\"></i>\n              Seleccionar\n            </a>\n           \n\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>\n"
+module.exports = "<div class=\"card mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"text-center\"> Lista de Empleados a evaluar</h6>\n    <nav class=\"navbar\">\n        <input placeholder=\"Escribe el evaluado a buscar\" class=\"form-control\" type=\"text\" name=\"search\" [(ngModel)]=\"filter\">      \n      </nav>\n    <table class=\"table table-sm table-hover\">\n      \n      <tbody>\n          <tr *ngFor =\"let person of personListEvaluados | filter:filter|  paginate: { itemsPerPage: 5, currentPage: p5, id: 'cinco' }; let i = index\">\n          <td>{{person.name}}</td>\n          <td>{{person.cargo}}</td> \n          \n          <td>\n            <a class=\"btn btn-success text-white\" (click)=\"onEdit(person.name)\">\n              <i class=\"far fa-hand-pointer\"></i>\n              \n            </a>\n           </td>\n           \n\n        </tr>\n      </tbody>\n      <pagination-controls (pageChange)=\"p5 = $event\" id=\"cinco\"></pagination-controls>\n    </table>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -898,6 +916,7 @@ var EvaluadosComponent = /** @class */ (function () {
         this.personService = personService;
         this.toastr = toastr;
         this.matrizService = matrizService;
+        this.p5 = 1;
     }
     EvaluadosComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -908,9 +927,7 @@ var EvaluadosComponent = /** @class */ (function () {
             item.forEach(function (element) {
                 var x = element.payload.toJSON();
                 x["$key"] = element.key;
-                if (x["evaluador"] == "false") {
-                    _this.personListEvaluados.push(x);
-                }
+                _this.personListEvaluados.push(x);
             });
         });
     };
@@ -918,7 +935,7 @@ var EvaluadosComponent = /** @class */ (function () {
         this.matrizService.selectedMatriz.evaluado = evaluado;
     };
     EvaluadosComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-evaluados',
             template: __webpack_require__("./src/app/components/persons/evaluados/evaluados.component.html"),
             styles: [__webpack_require__("./src/app/components/persons/evaluados/evaluados.component.css")]
@@ -944,7 +961,7 @@ module.exports = ""
 /***/ "./src/app/components/persons/matriz-list/matriz-list.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"text-center\"> Matriz de Evaluaciones</h6>\n    <table class=\"table table-sm table-hover\">\n      <thead class=\"thead-light\">\n        <tr>\n          <th scope=\"col\">Evaluador</th>\n          <th scope=\"col\">Persona a Evaluar</th>\n        </tr>\n      </thead>\n      <tbody>\n          <tr *ngFor =\"let matriz of matrizList\">\n          <td>{{matriz.evaluador}}</td>\n          <td>{{matriz.evaluado}}</td> \n          \n          \n          <td>\n              <a class=\"btn btn-info text-white\" (click)=\"onEdit(matriz)\">\n              <i class=\"far fa-edit\"></i>\n              \n              </a>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(matriz.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n             \n            </a>\n          </td>\n\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>"
+module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"text-center\"> Matriz de Evaluaciones</h6>\n    <table class=\"table table-sm table-hover\">\n      <thead class=\"thead-light\">\n        <tr>\n          <th scope=\"col\">Evaluador</th>\n          <th scope=\"col\">Persona a Evaluar</th>\n        </tr>\n      </thead>\n      <tbody>\n          <tr *ngFor =\"let matriz of matrizList |  paginate: { itemsPerPage: 4, currentPage: p4, id: 'cuatro' }; let i = index\">\n          <td>{{matriz.evaluador}}</td>\n          <td>{{matriz.evaluado}}</td> \n          \n          \n          <td>\n              <a class=\"btn btn-info text-white\" (click)=\"onEdit(matriz)\">\n              <i class=\"far fa-edit\"></i>\n              \n              </a>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(matriz.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n             \n            </a>\n          </td>\n\n        </tr>\n      </tbody>\n      <pagination-controls (pageChange)=\"p4 = $event\" id=\"cuatro\"></pagination-controls>\n    </table>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -974,6 +991,7 @@ var MatrizListComponent = /** @class */ (function () {
     function MatrizListComponent(matrizService, toastr) {
         this.matrizService = matrizService;
         this.toastr = toastr;
+        this.p4 = 1;
     }
     MatrizListComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -998,7 +1016,7 @@ var MatrizListComponent = /** @class */ (function () {
         }
     };
     MatrizListComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-matriz-list',
             template: __webpack_require__("./src/app/components/persons/matriz-list/matriz-list.component.html"),
             styles: [__webpack_require__("./src/app/components/persons/matriz-list/matriz-list.component.css")]
@@ -1023,7 +1041,7 @@ module.exports = ""
 /***/ "./src/app/components/persons/matriz/matriz.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5 bg-dark\">\n  <div class=\"card-body\">\n    <form #matrizForm=\"ngForm\" (ngSubmit)=\"onSubmit(matrizForm)\">\n      <input type=\"hidden\" name=\"$key\" #$key=\"ngModel\" [(ngModel)]=\"matrizService.selectedMatriz.$key\">\n\n      <div class=\"form-group\">\n        <input \n        readonly\n          type=\"text\"\n          class=\"form-control\" \n          name=\"evaluador\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"matrizService.selectedMatriz.evaluador\"\n          placeholder=\"Seleccione un evaluador de la lista\"\n        >\n      </div>\n\n      <div class=\"form-group\">\n        <input readonly \n          type=\"text\"\n          class=\"form-control\" \n          name=\"evaluado\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"matrizService.selectedMatriz.evaluado\"\n          placeholder=\"Seleccione un evaluado de la lista\"\n        >\n      </div>\n    \n      <div class=\"form-group\">\n        <button class=\"btn btn-primary\" type=\"submit\">\n          <i class=\"fas fa-plus-circle\"></i> Agregar Matriz\n        </button>\n        <button class=\"btn btn-secondary\" type=\"reset\" (click)=\"resetForm(personForm)\">\n          <i class=\"fas fa-sync-alt\"></i> Limpiar\n        </button>\n        </div>\n    </form>\n  </div>\n</div>\n\n"
+module.exports = "<div class=\"card mt-5 bg-dark\">\n  <div class=\"card-body\">\n    <form #matrizForm=\"ngForm\" (ngSubmit)=\"onSubmit(matrizForm)\">\n      <input type=\"hidden\" name=\"$key\" #$key=\"ngModel\" [(ngModel)]=\"matrizService.selectedMatriz.$key\">\n\n      <div class=\"form-group\">\n        <input \n        readonly\n          type=\"text\"\n          class=\"form-control\" \n          name=\"evaluador\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"matrizService.selectedMatriz.evaluador\"\n          placeholder=\"Seleccione un evaluador de la lista\"\n        >\n      </div>\n\n      <div class=\"form-group\">\n        <input readonly \n          type=\"text\"\n          class=\"form-control\" \n          name=\"evaluado\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"matrizService.selectedMatriz.evaluado\"\n          placeholder=\"Seleccione un evaluado de la lista\"\n        >\n      </div>\n    \n      <div class=\"form-group\">\n        <button class=\"btn btn-primary\" type=\"submit\">\n          <i class=\"fas fa-plus-circle\"></i> Agregar Matriz\n        </button>\n        <button class=\"btn btn-secondary\" type=\"reset\" (click)=\"resetForm(personForm)\">\n          <i class=\"fas fa-sync-alt\"></i> Limpiar\n        </button>\n        </div>\n    </form>\n  </div>\n</div>\n\n"
 
 /***/ }),
 
@@ -1077,7 +1095,7 @@ var MatrizComponent = /** @class */ (function () {
         this.matrizService.selectedMatriz = new __WEBPACK_IMPORTED_MODULE_3__models_matriz__["a" /* Matriz */]();
     };
     MatrizComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-matriz',
             template: __webpack_require__("./src/app/components/persons/matriz/matriz.component.html"),
             styles: [__webpack_require__("./src/app/components/persons/matriz/matriz.component.css")]
@@ -1102,7 +1120,7 @@ module.exports = ""
 /***/ "./src/app/components/persons/person/person.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5 bg-light\">\n  <div class=\"card-body\">\n    <form #personForm=\"ngForm\" (ngSubmit)=\"onSubmit(personForm)\">\n      <input type=\"hidden\" name=\"$key\" #$key=\"ngModel\" [(ngModel)]=\"personService.selectedPerson.$key\">\n\n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"cedula\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.cedula\"\n          placeholder=\"Agrega el numero de cedula\"\n        >\n      </div>\n\n      <div class=\"form-group\">\n          <input \n            type=\"text\"\n            class=\"form-control\" \n            name=\"name\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.name\"\n            placeholder=\"Agrega el nombre de la persona\"\n          >\n      </div>\n\n      <div class=\"form-group\">\n            <input readonly \n              type=\"text\"\n              class=\"form-control\" \n              name=\"cargo\"\n              #name=\"ngModel\"\n              [(ngModel)]=\"personService.selectedPerson.cargo\"\n              placeholder=\"Selecciona un cargo de la Lista\"\n            >\n      </div>\n\n      <div class=\"form-group\">\n          <input \n            type=\"text\"\n            class=\"form-control\" \n            name=\"estructurafisicacostos\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.estructurafisicacostos\"\n            placeholder=\"Agrega la estructura física de costos\"\n          >\n        </div>\n\n        <div class=\"form-group\">\n            <input \n              type=\"text\"\n              class=\"form-control\" \n              name=\"estructuraorganizacional\"\n              #name=\"ngModel\"\n              [(ngModel)]=\"personService.selectedPerson.estructuraorganizacional\"\n              placeholder=\"Agrega la estructura organizacional\"\n            >\n          </div>\n\n        \n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"area\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.area\"\n          placeholder=\"Agrega el area\"\n        >\n      </div>\n\n\n      <div class=\"form-group\">\n          <input  \n            type=\"text\"\n            class=\"form-control\" \n            name=\"ciudad\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.ciudad\"\n            placeholder=\"Selecciona una sucursal\"\n          >\n        </div>\n      \n      \n      \n      \n<!--\n\n\n \n\n\n      <div class=\"input-group mb-3\">\n          <div class=\"input-group-prepend\">\n            <label class=\"input-group-text\" for=\"inputGroupSelect01\">Ciudad</label>\n          </div>\n          <select name=\"ciudad\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.ciudad\"\n          class=\"custom-select\">\n            <option value=\"Quito\">Quito</option>\n            <option value=\"Guayaquil\">Guayaquil</option>\n            <option value=\"Cuenca\">Cuenca</option>\n            <option value=\"Loja\">Loja</option>\n            <option value=\"Napo\">Napo</option>\n          </select>\n        </div>\n\n        <div class=\"col-sm-10 mb-3 mt-6\">\n          <div class=\"form-check mt-4\">\n            <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios1\" value=\"false\" checked  name=\"evaluador\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.evaluador\">\n            <label class=\"form-check-label\" for=\"gridRadios1\">\n              Evaluado\n            </label>\n          </div>\n          <div class=\"form-check\">\n            <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios2\" value=\"true\"  name=\"evaluador\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.evaluador\">\n            <label class=\"form-check-label\" for=\"gridRadios2\">\n              Evaluador\n            </label>\n          </div>\n        </div>\n        -->\n     \n\n    \n      <div class=\"form-group\">\n        <button class=\"btn btn-primary\" type=\"submit\">\n          <i class=\"fas fa-plus-circle\"></i> Agregar\n        </button>\n        <button class=\"btn btn-secondary\" type=\"reset\" (click)=\"resetForm(personForm)\">\n          <i class=\"fas fa-sync-alt\"></i> Limpiar\n        </button>\n        </div>\n    </form>\n  </div>\n</div>\n"
+module.exports = "<div class=\"card mt-5 mb-5 bg-light\">\n  <div class=\"card-body\">\n    <form #personForm=\"ngForm\" (ngSubmit)=\"onSubmit(personForm)\">\n      <input type=\"hidden\" name=\"$key\" #$key=\"ngModel\" [(ngModel)]=\"personService.selectedPerson.$key\">\n\n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"cedula\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.cedula\"\n          placeholder=\"Agrega el numero de cedula\"\n        >\n      </div>\n\n      <div class=\"form-group\">\n          <input \n            type=\"text\"\n            class=\"form-control\" \n            name=\"name\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.name\"\n            placeholder=\"Agrega el nombre de la persona\"\n          >\n      </div>\n<!--readonly-->\n      <div class=\"form-group\">\n            <input readonly\n              type=\"text\"\n              class=\"form-control\" \n              name=\"cargo\"\n              #name=\"ngModel\"\n              [(ngModel)]=\"personService.selectedPerson.cargo\"\n              placeholder=\"Selecciona un cargo de la Lista\"\n            >\n      </div>\n\n      <div class=\"form-group\">\n          <input \n            type=\"text\"\n            class=\"form-control\" \n            name=\"estructurafisicacostos\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.estructurafisicacostos\"\n            placeholder=\"Agrega la estructura física de costos\"\n          >\n        </div>\n\n        <div class=\"form-group\">\n            <input \n              type=\"text\"\n              class=\"form-control\" \n              name=\"estructuraorganizacional\"\n              #name=\"ngModel\"\n              [(ngModel)]=\"personService.selectedPerson.estructuraorganizacional\"\n              placeholder=\"Agrega la estructura organizacional\"\n            >\n          </div>\n\n        \n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"area\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.area\"\n          placeholder=\"Agrega el area\"\n        >\n      </div>\n\n\n      <div class=\"form-group\">\n          <input  \n            type=\"text\"\n            class=\"form-control\" \n            name=\"ciudad\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.ciudad\"\n            placeholder=\"Selecciona una sucursal\"\n          >\n        </div>\n      \n      \n      \n      \n<!--\n\n\n \n\n\n      <div class=\"input-group mb-3\">\n          <div class=\"input-group-prepend\">\n            <label class=\"input-group-text\" for=\"inputGroupSelect01\">Ciudad</label>\n          </div>\n          <select name=\"ciudad\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.ciudad\"\n          class=\"custom-select\">\n            <option value=\"Quito\">Quito</option>\n            <option value=\"Guayaquil\">Guayaquil</option>\n            <option value=\"Cuenca\">Cuenca</option>\n            <option value=\"Loja\">Loja</option>\n            <option value=\"Napo\">Napo</option>\n          </select>\n        </div>\n\n        <div class=\"col-sm-10 mb-3 mt-6\">\n          <div class=\"form-check mt-4\">\n            <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios1\" value=\"false\" checked  name=\"evaluador\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.evaluador\">\n            <label class=\"form-check-label\" for=\"gridRadios1\">\n              Evaluado\n            </label>\n          </div>\n          <div class=\"form-check\">\n            <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios2\" value=\"true\"  name=\"evaluador\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.evaluador\">\n            <label class=\"form-check-label\" for=\"gridRadios2\">\n              Evaluador\n            </label>\n          </div>\n        </div>\n        -->\n     \n\n    \n      <div class=\"form-group\">\n        <button class=\"btn btn-primary\" type=\"submit\">\n          <i class=\"fas fa-plus-circle\"></i> Agregar\n        </button>\n        <button class=\"btn btn-secondary\" type=\"reset\" (click)=\"resetForm(personForm)\">\n          <i class=\"fas fa-sync-alt\"></i> Limpiar\n        </button>\n        </div>\n    </form>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1157,7 +1175,7 @@ var PersonComponent = /** @class */ (function () {
         //
     };
     PersonComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-person',
             template: __webpack_require__("./src/app/components/persons/person/person.component.html"),
             styles: [__webpack_require__("./src/app/components/persons/person/person.component.css")]
@@ -1182,7 +1200,7 @@ module.exports = ""
 /***/ "./src/app/components/persons/persons-list/persons-list.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"text-center\"> Lista de Personas</h6>\n    <table class=\"table table-sm table-hover\">\n      \n      <tbody>\n          <tr *ngFor =\"let person of personList\">\n          <td>{{person.name}}</td>\n          <td>{{person.cargo}}</td> \n          <td>{{person.cedula}}</td>\n          <td>{{person.ciudad}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(person)\">\n              <i class=\"far fa-edit\"></i>\n              Editar\n            </a>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(person.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n              Borrar\n            </a>\n          </td>\n\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>"
+module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"text-center\"> Lista de Personas</h6>\n    <nav class=\"navbar\">\n        <input placeholder=\"Escribe el nombre de la persona a buscar\" class=\"form-control\" type=\"text\" name=\"search\" [(ngModel)]=\"filter\">      \n      </nav>\n    <table class=\"table table-sm table-hover\">\n      \n      <tbody>\n          <tr *ngFor =\"let person of personList| filter:filter |  paginate: { itemsPerPage: 9, currentPage: p3, id: 'tres' }; let i = index\">\n          <td>{{person.name}}</td>\n          <td>{{person.cargo}}</td> \n          <td>{{person.cedula}}</td>\n          <td>{{person.ciudad}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(person)\">\n              <i class=\"far fa-edit\"></i>\n            \n            </a>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(person.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n              \n            </a>\n          </td>\n          <td>\n            <a class=\"btn btn-success text-white\" (click)=\"onEvaluador(person)\" >\n              <i class=\"fas fa-anchor\"></i>\n              \n            </a>\n          </td>\n\n        </tr>\n      </tbody>\n      <pagination-controls (pageChange)=\"p3 = $event\" id=\"tres\"></pagination-controls>\n\n    </table>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -1193,7 +1211,8 @@ module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n 
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return PersonsListComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_person_service__ = __webpack_require__("./src/app/services/person.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/esm5/ngx-toastr.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_evaluadores_service__ = __webpack_require__("./src/app/services/evaluadores.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/esm5/ngx-toastr.js");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1206,12 +1225,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 
 //service
 
+
 //toastr
 
 var PersonsListComponent = /** @class */ (function () {
-    function PersonsListComponent(personService, toastr) {
+    function PersonsListComponent(personService, evaluadoresService, toastr) {
         this.personService = personService;
+        this.evaluadoresService = evaluadoresService;
         this.toastr = toastr;
+        this.p3 = 1;
     }
     PersonsListComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -1235,14 +1257,19 @@ var PersonsListComponent = /** @class */ (function () {
             this.toastr.success('Operacion Completada', 'Persona Eliminada');
         }
     };
+    PersonsListComponent.prototype.onEvaluador = function (person) {
+        this.evaluadoresService.insertPerson(person);
+        this.toastr.success('Operación Existosa', 'Nueva evluador Agregada');
+    };
     PersonsListComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-persons-list',
             template: __webpack_require__("./src/app/components/persons/persons-list/persons-list.component.html"),
             styles: [__webpack_require__("./src/app/components/persons/persons-list/persons-list.component.css")]
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_person_service__["a" /* PersonService */],
-            __WEBPACK_IMPORTED_MODULE_2_ngx_toastr__["b" /* ToastrService */]])
+            __WEBPACK_IMPORTED_MODULE_2__services_evaluadores_service__["a" /* EvaluadoresService */],
+            __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__["b" /* ToastrService */]])
     ], PersonsListComponent);
     return PersonsListComponent;
 }());
@@ -1261,7 +1288,7 @@ module.exports = ""
 /***/ "./src/app/components/persons/persons.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-6\">\n      <app-person></app-person>\n    </div>\n    <div class=\"col-md-6 text-center\">\n        <app-workpositionsperson-list></app-workpositionsperson-list>\n      </div>\n    <div class=\"col-md-12 text-center\">\n      <app-persons-list></app-persons-list>\n    </div>\n   \n  </div>\n</div>\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fab fa-connectdevelop\"></i>\n    Matriz de Evaluación\n  </a>\n</nav>\n\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-4\">\n      <app-matriz></app-matriz>\n    </div>\n    <div class=\"col-md-8 text-center\">\n      <app-matriz-list></app-matriz-list>\n    </div>\n  </div>\n</div>\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-6\">\n      <app-evaluadores></app-evaluadores>\n    </div>\n    \n    <div class=\"col-md-6\">\n      <app-evaluados></app-evaluados>\n    </div>\n  </div>\n</div>"
+module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-5\">\n      <app-person></app-person>\n    </div>\n    <div class=\"col-md-7 text-center\">\n        <app-workpositionsperson-list></app-workpositionsperson-list>\n      </div>\n    <div class=\"col-md-12 text-center\">\n      <app-persons-list></app-persons-list>\n    </div>\n   \n  </div>\n</div>\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fab fa-connectdevelop\"></i>\n    Matriz de Evaluación\n  </a>\n</nav>\n\n\n<div class=\"container\">\n  <div class=\"row\"> \n    <div class=\"col-md-12 text-center\">\n      <app-matriz></app-matriz>\n    </div>\n  </div>\n</div>\n\n<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-6\">\n      <app-evaluadores></app-evaluadores>\n    </div>\n    \n    <div class=\"col-md-6\">\n      <app-evaluados></app-evaluados>\n    </div>\n  </div>\n</div>\n<div class=\"container\">\n    <div class=\"row\">\n<div class=\"col-md-12 text-center\">\n    <app-matriz-list></app-matriz-list>\n  </div>\n</div>\n</div>"
 
 /***/ }),
 
@@ -1287,7 +1314,7 @@ var PersonsComponent = /** @class */ (function () {
     PersonsComponent.prototype.ngOnInit = function () {
     };
     PersonsComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-persons',
             template: __webpack_require__("./src/app/components/persons/persons.component.html"),
             styles: [__webpack_require__("./src/app/components/persons/persons.component.css")]
@@ -1311,7 +1338,7 @@ module.exports = ""
 /***/ "./src/app/components/persons/workpositionsperson-list/workpositionsperson-list.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5\">\n    <div class=\"card-body\">\n      <h6 class=\"test-center\"> Lista de Cargos</h6>\n      <table class=\"table table-sm table-hover table-light\">\n        \n        <tbody>\n            <tr *ngFor =\"let workposition of workpositionsList\">\n            <td>{{workposition.name}}</td>\n            <td>\n              <a class=\"btn btn-success text-white\" (click)=\"onEdit(workposition.name)\">\n                <i class=\"far fa-edit\"></i>\n                Relacionar\n              </a>\n             <!-- <a class=\"btn btn-danger text-white\" (click)=\"onDelete(workposition.$key)\" >\n                <i class=\"fas fa-trash-alt\"></i>\n                Borrar\n              </a>-->\n            </td>\n  \n          </tr>\n        </tbody>\n      </table>\n    </div>\n  </div>"
+module.exports = "<div class=\"card mt-5 mb-5\">\n    <div class=\"card-body\">\n      <h6 class=\"test-center\"> Lista de Cargos</h6>\n      <nav class=\"navbar\">\n          <input placeholder=\"Escribe el cargo a buscar\" class=\"form-control\" type=\"text\" name=\"search\" [(ngModel)]=\"filter\">      \n        </nav>\n      <table class=\"table table-sm table-hover table-light\">\n        \n        \n        <tbody>\n            \n                <tr *ngFor =\"let workposition of workpositionsList | filter:filter| paginate: { itemsPerPage: 7, currentPage: p2, id: 'second' }; let i = index\">\n\n            <td>{{workposition.name}}</td>\n            <td>\n              <a class=\"btn btn-success text-white\" (click)=\"onEdit(workposition.name)\">\n                <i class=\"far fa-edit\"></i>\n                Seleccionar\n              </a>\n             <!-- <a class=\"btn btn-danger text-white\" (click)=\"onDelete(workposition.$key)\" >\n                <i class=\"fas fa-trash-alt\"></i>\n                Borrar\n              </a>-->\n            </td>\n  \n          </tr>\n        </tbody>\n        <pagination-controls (pageChange)=\"p2 = $event\" id=\"second\"></pagination-controls>\n\n      </table>\n    </div>\n  </div>"
 
 /***/ }),
 
@@ -1345,6 +1372,7 @@ var WorkpositionspersonListComponent = /** @class */ (function () {
         this.workpositionService = workpositionService;
         this.personService = personService;
         this.toastr = toastr;
+        this.p2 = 1;
     }
     WorkpositionspersonListComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -1363,7 +1391,7 @@ var WorkpositionspersonListComponent = /** @class */ (function () {
         this.personService.selectedPerson.cargo = cargo;
     };
     WorkpositionspersonListComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-workpositionsperson-list',
             template: __webpack_require__("./src/app/components/persons/workpositionsperson-list/workpositionsperson-list.component.html"),
             styles: [__webpack_require__("./src/app/components/persons/workpositionsperson-list/workpositionsperson-list.component.css")]
@@ -1443,7 +1471,7 @@ var WorkpositionComponent = /** @class */ (function () {
         this.workpositionService.selectedWorkposition = new __WEBPACK_IMPORTED_MODULE_3__models_workposition__["a" /* Workposition */]();
     };
     WorkpositionComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-workposition',
             template: __webpack_require__("./src/app/components/workpositions/workposition/workposition.component.html"),
             styles: [__webpack_require__("./src/app/components/workpositions/workposition/workposition.component.css")]
@@ -1468,7 +1496,7 @@ module.exports = ""
 /***/ "./src/app/components/workpositions/workpositions-list/workpositions-list.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-3 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> LISTA DE CARGOS</h6>\n    <table class=\"table table-sm table-hover table-light\">\n      \n      <tbody>\n          <tr *ngFor =\"let workposition of workpositionsList\">\n          <td>{{workposition.name}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(workposition)\">\n              <i class=\"far fa-edit\"></i>\n              Editar\n            </a>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(workposition.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n              Borrar\n            </a>\n          </td>\n\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>"
+module.exports = "<div class=\"card mt-3 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> LISTA DE CARGOS</h6>\n    \n    <nav class=\"navbar\">\n        <input class=\"form-control\" type=\"text\" name=\"search\" [(ngModel)]=\"filter\">      \n      </nav>\n    <table class=\"table table-sm table-hover table-light\">\n      \n      <tbody>\n          \n\n            <thead>\n                <tr>\n                  \n                  \n                </tr>\n              </thead>\n          <tr *ngFor =\"let workposition of workpositionsList |filter:filter |paginate: { itemsPerPage: 5, currentPage: p1, id: 'first' }; let i = index\">\n          <td>{{workposition.name}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(workposition)\">\n              <i class=\"far fa-edit\"></i>\n            \n            </a>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(workposition.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n          \n            </a>\n          </td>\n\n        </tr>\n      </tbody>\n      <pagination-controls (pageChange)=\"p1 = $event\" id=\"first\"></pagination-controls>\n    </table>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -1498,6 +1526,7 @@ var WorkpositionsListComponent = /** @class */ (function () {
     function WorkpositionsListComponent(workpositionService, toastr) {
         this.workpositionService = workpositionService;
         this.toastr = toastr;
+        this.p = 1;
     }
     WorkpositionsListComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -1522,7 +1551,7 @@ var WorkpositionsListComponent = /** @class */ (function () {
         }
     };
     WorkpositionsListComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-workpositions-list',
             template: __webpack_require__("./src/app/components/workpositions/workpositions-list/workpositions-list.component.html"),
             styles: [__webpack_require__("./src/app/components/workpositions/workpositions-list/workpositions-list.component.css")]
@@ -1573,7 +1602,7 @@ var WorkpositionsComponent = /** @class */ (function () {
     WorkpositionsComponent.prototype.ngOnInit = function () {
     };
     WorkpositionsComponent = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'app-workpositions',
             template: __webpack_require__("./src/app/components/workpositions/workpositions.component.html"),
             styles: [__webpack_require__("./src/app/components/workpositions/workpositions.component.css")]
@@ -1706,10 +1735,61 @@ var CompetencyService = /** @class */ (function () {
         this.competenciesList.remove($key);
     };
     CompetencyService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_angularfire2_database__["a" /* AngularFireDatabase */]])
     ], CompetencyService);
     return CompetencyService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/evaluadores.service.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return EvaluadoresService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angularfire2_database__ = __webpack_require__("./node_modules/angularfire2/database/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__models_person__ = __webpack_require__("./src/app/models/person.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+//Firebase
+
+//clase Person
+
+var EvaluadoresService = /** @class */ (function () {
+    function EvaluadoresService(firebase) {
+        this.firebase = firebase;
+        this.selectedPersonEvaluador = new __WEBPACK_IMPORTED_MODULE_2__models_person__["a" /* Person */]();
+    }
+    EvaluadoresService.prototype.getPersons = function () {
+        return this.personList = this.firebase.list('evaluadores');
+    };
+    EvaluadoresService.prototype.insertPerson = function (person) {
+        this.personList.push({
+            name: person.name,
+            cedula: person.cedula,
+            cargo: person.cargo,
+        });
+    };
+    EvaluadoresService.prototype.deletePerson = function ($key) {
+        this.personList.remove($key);
+    };
+    EvaluadoresService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_angularfire2_database__["a" /* AngularFireDatabase */]])
+    ], EvaluadoresService);
+    return EvaluadoresService;
 }());
 
 
@@ -1769,7 +1849,7 @@ var KpiService = /** @class */ (function () {
         this.kpiList.remove($key);
     };
     KpiService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_angularfire2_database__["a" /* AngularFireDatabase */]])
     ], KpiService);
     return KpiService;
@@ -1824,7 +1904,7 @@ var MatrizService = /** @class */ (function () {
         this.matrizList.remove($key);
     };
     MatrizService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_angularfire2_database__["a" /* AngularFireDatabase */]])
     ], MatrizService);
     return MatrizService;
@@ -1890,7 +1970,7 @@ var PersonService = /** @class */ (function () {
         this.personList.remove($key);
     };
     PersonService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_angularfire2_database__["a" /* AngularFireDatabase */]])
     ], PersonService);
     return PersonService;
@@ -1944,7 +2024,7 @@ var WorkpositionService = /** @class */ (function () {
         this.workpositionsList.remove($key);
     };
     WorkpositionService = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["y" /* Injectable */])(),
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_angularfire2_database__["a" /* AngularFireDatabase */]])
     ], WorkpositionService);
     return WorkpositionService;
@@ -1993,7 +2073,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 if (__WEBPACK_IMPORTED_MODULE_3__environments_environment__["a" /* environment */].production) {
-    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* enableProdMode */])();
+    Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["enableProdMode"])();
 }
 Object(__WEBPACK_IMPORTED_MODULE_1__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_2__app_app_module__["a" /* AppModule */])
     .catch(function (err) { return console.log(err); });

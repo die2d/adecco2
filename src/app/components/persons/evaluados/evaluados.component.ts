@@ -18,6 +18,8 @@ import { element } from 'protractor';
 })
 export class EvaluadosComponent implements OnInit {
 
+  p5: number = 1;
+
   personListEvaluados: Person[];
   constructor(
     private personService: PersonService,
@@ -33,8 +35,8 @@ export class EvaluadosComponent implements OnInit {
       item.forEach(element =>{
         let x = element.payload.toJSON();
         x["$key"] =element.key;
-        if(x["evaluador"] == "false"){
-        this.personListEvaluados.push(x as Person);}
+        
+        this.personListEvaluados.push(x as Person);
       });
     });
   }

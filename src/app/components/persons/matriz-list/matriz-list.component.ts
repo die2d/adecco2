@@ -17,7 +17,7 @@ import { Matriz } from '../../../models/matriz';
 export class MatrizListComponent implements OnInit {
 
   matrizList: Matriz[];
-
+  p4: number = 1;
   constructor(
     private matrizService: MatrizService,
     private toastr: ToastrService

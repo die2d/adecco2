@@ -1,22 +1,27 @@
-<div class="card mt-5 mb-5">
+<div class="card mb-5">
   <div class="card-body">
     <h6 class="text-center"> Lista de Empleados a evaluar</h6>
+    <nav class="navbar">
+        <input placeholder="Escribe el evaluado a buscar" class="form-control" type="text" name="search" [(ngModel)]="filter">      
+      </nav>
     <table class="table table-sm table-hover">
       
       <tbody>
-          <tr *ngFor ="let person of personListEvaluados">
+          <tr *ngFor ="let person of personListEvaluados | filter:filter|  paginate: { itemsPerPage: 5, currentPage: p5, id: 'cinco' }; let i = index">
           <td>{{person.name}}</td>
           <td>{{person.cargo}}</td> 
           
           <td>
             <a class="btn btn-success text-white" (click)="onEdit(person.name)">
               <i class="far fa-hand-pointer"></i>
-              Seleccionar
+              
             </a>
+           </td>
            
 
         </tr>
       </tbody>
+      <pagination-controls (pageChange)="p5 = $event" id="cinco"></pagination-controls>
     </table>
   </div>
 </div>

@@ -1,4 +1,4 @@
-<div class="card mt-5 mb-5 bg-dark">
+<div class="card mt-5 bg-dark">
   <div class="card-body">
     <form #matrizForm="ngForm" (ngSubmit)="onSubmit(matrizForm)">
       <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="matrizService.selectedMatriz.$key">

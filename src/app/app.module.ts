@@ -3,6 +3,10 @@ import { NgModule } from '@angular/core';
 
 import { FormsModule } from '@angular/forms';
 
+import { Ng2SearchPipeModule } from 'ng2-search-filter';
+
+import { Ng2OrderModule } from 'ng2-order-pipe';
+
 //animaciones
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -49,7 +53,8 @@ import { EvaluadosComponent } from './components/persons/evaluados/evaluados.com
 import { MatrizListComponent } from './components/persons/matriz-list/matriz-list.component';
 import { MatrizService } from './services/matriz.service';
 import { WorkpositionspersonListComponent } from './components/persons/workpositionsperson-list/workpositionsperson-list.component';
-
+import { EvaluadoresService } from './services/evaluadores.service';
+import {NgxPaginationModule} from 'ngx-pagination';
 
 @NgModule({
   declarations: [
@@ -81,9 +86,11 @@ import { WorkpositionspersonListComponent } from './components/persons/workposit
     //Para referenciar la BD en la app
     AngularFireModule.initializeApp(environment.firebase),
     AngularFireDatabaseModule,
-  
+    NgxPaginationModule,
+    Ng2SearchPipeModule,
     //
     FormsModule,
+    Ng2OrderModule,
     //
     BrowserAnimationsModule,
     ToastrModule.forRoot()
@@ -94,7 +101,8 @@ import { WorkpositionspersonListComponent } from './components/persons/workposit
     KpiService,
     WorkpositionService,
     CompetencyService,
-    MatrizService
+    MatrizService,
+    EvaluadoresService
   ],
   bootstrap: [AppComponent]
 })

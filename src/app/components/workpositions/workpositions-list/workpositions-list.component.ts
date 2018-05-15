@@ -18,6 +18,8 @@ import { Workposition } from '../../../models/workposition';
 })
 export class WorkpositionsListComponent implements OnInit {
 
+  
+  p: number = 1;
   workpositionsList: Workposition[];
 
   constructor(

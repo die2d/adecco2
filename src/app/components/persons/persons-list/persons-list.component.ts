@@ -3,6 +3,8 @@ import { Component, OnInit } from '@angular/core';
 //service
 import {PersonService} from '../../../services/person.service';
 
+import {EvaluadoresService} from '../../../services/evaluadores.service';
+
 //toastr
 import { ToastrService} from 'ngx-toastr';
 
@@ -18,9 +20,11 @@ import { element } from 'protractor';
 export class PersonsListComponent implements OnInit {
 
   personList: Person[];
+  p3: number = 1;
 
   constructor(
     private personService: PersonService,
+    private evaluadoresService: EvaluadoresService,
     private toastr: ToastrService
   ) { }
 
@@ -37,9 +41,6 @@ export class PersonsListComponent implements OnInit {
         this.personList.push(x as Person);
       });
     });
-    
-    
-  
   }
 
   onEdit(person: Person){
@@ -52,5 +53,16 @@ export class PersonsListComponent implements OnInit {
       this.toastr.success('Operacion Completada', 'Persona Eliminada' );
     }
   }
-
+  
+  onEvaluador(person: Person){
+    
+      
+      this.evaluadoresService.insertPerson(person);
+      this.toastr.success('Operación Existosa', 'Nueva evluador Agregada')
+      
+    }
+   
+  
 }
+
+

@@ -1,10 +1,13 @@
 <div class="card mt-5 mb-5">
   <div class="card-body">
     <h6 class="text-center"> Lista de Personas</h6>
+    <nav class="navbar">
+        <input placeholder="Escribe el nombre de la persona a buscar" class="form-control" type="text" name="search" [(ngModel)]="filter">      
+      </nav>
     <table class="table table-sm table-hover">
       
       <tbody>
-          <tr *ngFor ="let person of personList">
+          <tr *ngFor ="let person of personList| filter:filter |  paginate: { itemsPerPage: 9, currentPage: p3, id: 'tres' }; let i = index">
           <td>{{person.name}}</td>
           <td>{{person.cargo}}</td> 
           <td>{{person.cedula}}</td>
@@ -12,16 +15,24 @@
           <td>
             <a class="btn btn-secondary text-white" (click)="onEdit(person)">
               <i class="far fa-edit"></i>
-              Editar
+            
             </a>
             <a class="btn btn-danger text-white" (click)="onDelete(person.$key)" >
               <i class="fas fa-trash-alt"></i>
-              Borrar
+              
+            </a>
+          </td>
+          <td>
+            <a class="btn btn-success text-white" (click)="onEvaluador(person)" >
+              <i class="fas fa-anchor"></i>
+              
             </a>
           </td>
 
         </tr>
       </tbody>
+      <pagination-controls (pageChange)="p3 = $event" id="tres"></pagination-controls>
+
     </table>
   </div>
 </div>
