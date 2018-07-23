@@ -1,26 +1,42 @@
 <div class="card mt-5 mb-5">
   <div class="card-body">
     <h6 class="test-center"> Lista de Kpis</h6>
+
+    <nav class="navbar">
+      <input class="form-control" type="text" name="search" [(ngModel)]="filter">      
+    </nav>
     <table class="table table-sm table-hover">
-      
+      <thead class="thead-light">
+        <tr>
+          <th scope="col">Indicador Macro</th>
+          <th scope="col">Indicador por proceso</th>
+          <th scope="col">Indicador</th>
+          
+          <th scope="col">Cargo</th>
+        </tr>
+      </thead>
       <tbody>
-          <tr *ngFor ="let kpi of kpiList">
-          <td>{{kpi.nombre}}</td>
-          <td>{{kpi.objetivo}}</td> 
-          <td>{{kpi.cargo}}</td> 
+          <tr *ngFor ="let kpi of kpiList |filter:filter |paginate: { itemsPerPage: 10, currentPage: p11, id: 'eleven' }; let i = index">
+          
+          
+          <td>{{kpi.indicadorMacro}}</td> 
+          <td>{{kpi.indicadorProceso}}</td> 
+          <td>{{kpi.indicador}}</td>
+          
+          <td>{{kpi.cargo}}</td>
           <td>
             <a class="btn btn-secondary text-white" (click)="onEdit(kpi)">
               <i class="far fa-edit"></i>
-              Editar
+      
             </a>
             <a class="btn btn-danger text-white" (click)="onDelete(kpi.$key)" >
               <i class="fas fa-trash-alt"></i>
-              Borrar
-            </a>
+                       </a>
           </td>
 
         </tr>
       </tbody>
+      <pagination-controls (pageChange)="p11 =$event" id="eleven"></pagination-controls>
     </table>
   </div>
 </div>

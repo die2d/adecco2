@@ -20,28 +20,28 @@ export class KpiService {
 
   insertKpi(kpi: Kpi){
     this.kpiList.push({
-            
-      nombre: kpi.nombre,
+       cargo: kpi.cargo,     
+      indicadorMacro: kpi.indicadorMacro,
+      indicadorProceso: kpi.indicadorProceso,
+      indicador: kpi.indicador,
       objetivo: kpi.objetivo,
       cumplimiento: kpi.cumplimiento,
-      porcentaje: kpi.porcentaje,
+      calculo: kpi.calculo
       
-      cargo: kpi.cargo,
-
       
     })
   }
 
   updateKpi(kpi: Kpi){
     this.kpiList.update(kpi.$key,{
-      nombre: kpi.nombre,
+      cargo: kpi.cargo,     
+      indicadorMacro: kpi.indicadorMacro,
+      indicadorProceso: kpi.indicadorProceso,
+      indicador:kpi.indicador,
       objetivo: kpi.objetivo,
       cumplimiento: kpi.cumplimiento,
-      porcentaje: kpi.porcentaje,
+      calculo: kpi.calculo
 
-      cargo: kpi.cargo,
-
-      competencias: kpi.competencias
     })
   }
 

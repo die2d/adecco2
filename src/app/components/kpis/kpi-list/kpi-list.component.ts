@@ -18,7 +18,7 @@ import { element } from 'protractor';
 export class KpiListComponent implements OnInit {
 
   kpiList: Kpi[];
-
+  p11: number = 1;
   constructor(
     private kpiService: KpiService,
     private toastr: ToastrService

@@ -24,7 +24,7 @@ import { Workposition } from '../../../models/workposition';
 })
 export class WorkpositionskpiListComponent implements OnInit {
   workpositionsList: Workposition[];
-
+  p10: number = 1;
   constructor(
     private workpositionService: WorkpositionService,
     private kpiService: KpiService,

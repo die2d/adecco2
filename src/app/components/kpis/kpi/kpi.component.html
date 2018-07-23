@@ -1,22 +1,56 @@
-<div class="card mt-5 mb-5 bg-danger">
+<div class="card mt-5 mb-5 bg-light">
   <div class="card-body">
     <form #kpiForm="ngForm" (ngSubmit)="onSubmit(kpiForm)">
       <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="kpiService.selectedKpi.$key">
-      <input type="text"  name="cargo" #name="ngModel" [(ngModel)]="kpiService.selectedKpi.cargo">
+      <!--<input type="text"  name="cargo" #name="ngModel" [(ngModel)]="kpiService.selectedKpi.cargo">-->
  
       
 
-     
+      <div class="form-group">
+        <input 
+        readonly
+          type="text"
+          class="form-control" 
+          name="cargo"
+          #name="ngModel"
+          [(ngModel)]="kpiService.selectedKpi.cargo"
+          placeholder="Selecciona el cargo de la lista"
+        >
+      </div>
+
       <div class="form-group">
         <input 
           type="text"
           class="form-control" 
-          name="nombre"
+          name="indicadorMacro"
           #name="ngModel"
-          [(ngModel)]="kpiService.selectedKpi.nombre"
-          placeholder="Agrega el nombre del kpi"
+          [(ngModel)]="kpiService.selectedKpi.indicadorMacro"
+          placeholder="Agrega el indicador macro"
         >
       </div>
+      
+      <div class="form-group">
+        <input 
+          type="text"
+          class="form-control" 
+          name="indicadorProceso"
+          #name="ngModel"
+          [(ngModel)]="kpiService.selectedKpi.indicadorProceso"
+          placeholder="Agrega el indicador por proceso"
+        >
+      </div>
+
+      <div class="form-group">
+        <input 
+          type="text"
+          class="form-control" 
+          name="indicador"
+          #name="ngModel"
+          [(ngModel)]="kpiService.selectedKpi.indicador"
+          placeholder="Agrega el indicador Principal"
+        >
+      </div>
+      
       <div class="form-group">
         <input 
           type="text"
@@ -24,14 +58,31 @@
           name="objetivo"
           #name="ngModel"
           [(ngModel)]="kpiService.selectedKpi.objetivo"
-          placeholder="Agrega el objetivo del kpi"
+          placeholder="Descripción de la base objetivo"
         >
       </div>
 
-      
-
-      
-      
+      <div class="form-group">
+        <input 
+          type="text"
+          class="form-control" 
+          name="cumplimiento"
+          #name="ngModel"
+          [(ngModel)]="kpiService.selectedKpi.cumplimiento"
+          placeholder="Descripción del valor de cumplimiento"
+        >
+      </div>
+      <div class="form-group">
+        <input 
+          type="text"
+          class="form-control" 
+          name="calculo"
+          #name="ngModel"
+          [(ngModel)]="kpiService.selectedKpi.calculo"
+          placeholder="Agrega el tipo de calculo D / I"
+        >
+      </div>
+    
       <div class="form-group">
         <button class="btn btn-primary" type="submit">
           <i class="fas fa-plus-circle"></i> Agregar kpi

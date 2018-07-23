@@ -15,6 +15,9 @@ import {ToastrModule} from 'ngx-toastr'
 
 import { AppComponent } from './app.component';
 
+//rutAS
+import { AppRoutingModule } from './app.routes';
+
 
 //firebase 
 import { AngularFireModule } from 'angularfire2';
@@ -55,6 +58,7 @@ import { MatrizService } from './services/matriz.service';
 import { WorkpositionspersonListComponent } from './components/persons/workpositionsperson-list/workpositionsperson-list.component';
 import { EvaluadoresService } from './services/evaluadores.service';
 import {NgxPaginationModule} from 'ngx-pagination';
+import { InicioComponent } from './components/inicio/inicio.component';
 
 @NgModule({
   declarations: [
@@ -77,7 +81,8 @@ import {NgxPaginationModule} from 'ngx-pagination';
     MatrizComponent,
     EvaluadosComponent,
     MatrizListComponent,
-    WorkpositionspersonListComponent
+    WorkpositionspersonListComponent,
+    InicioComponent
     
     
   ],
@@ -93,7 +98,8 @@ import {NgxPaginationModule} from 'ngx-pagination';
     Ng2OrderModule,
     //
     BrowserAnimationsModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+    AppRoutingModule
   ],
   providers: [
     //servicios

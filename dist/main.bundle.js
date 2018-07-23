@@ -27,7 +27,7 @@ module.exports = ""
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n   <div class=\"card text-white bg-danger mt-3 mb-3\" style=\"width: 12rem;\">\n      <div class=\"card-body\">\n          \n        </div>\n    <img class=\"card-img-top\" src=\"http://www.adecco.com.ec/images/adecco.png\" alt=\"Card image cap\">\n    <div class=\"card-body\">\n      <p class=\"card-text\">App en Desarrollo.</p>\n    </div>\n  </div>\n  \n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-briefcase\"></i>\n    Administración de cargos\n  </a>\n</nav>\n\n<app-workpositions></app-workpositions>\n\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-users\"></i>\n   \n  Administración de Personas\n  </a>\n</nav>\n\n<app-persons></app-persons>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-users\"></i>\n    Administracion de competencias\n  </a>\n</nav>\n<app-competencies></app-competencies>\n\n\n\n\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-file-alt\"></i>\n   \n  Administracion de Kpis\n  </a>\n</nav>\n\n<!-- <app-kpis></app-kpis>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-shopping-cart\"></i>\n   \n  Designacion de evaluaciones\n  </a>\n</nav>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-clipboard-check\"></i>\n   \n  Evaluacion (Evaluador)\n  </a>\n</nav>\n-->\n"
+module.exports = "\n   <div class=\"card text-white bg-danger mt-3 mb-3\" style=\"width: 12rem;\">\n      <div class=\"card-body\">\n          \n        </div>\n    <img class=\"card-img-top\" src=\"https://www.adecco.com.ec/wp-content/themes/adecco-colombia/images/logo.svg\" alt=\"Card image cap\">\n    <div class=\"card-body\">\n      <p class=\"card-text\">App en Desarrollo.</p>\n    </div>\n  </div>\n  \n\n  <nav class=\"navbar navbar-expand-lg navbar navbar-dark bg-dark\">\n    <a class=\"navbar-brand\" href=\"#\">INICIO</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n  \n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n      <ul class=\"navbar-nav mr-auto\">\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"workpositions\">Cargos <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"persons\">Personas <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"indicadores\">Indicadores <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"competencias\">Competencias <span class=\"sr-only\">(current)</span></a>\n        </li>\n      </ul>\n      <form class=\"form-inline my-2 my-lg-0\">\n        <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n        <button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>\n      </form>\n    </div>\n  </nav>\n  \n  \n  <router-outlet></router-outlet>\n\n<!--\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-briefcase\"></i>\n    Administración de cargos\n  </a>\n</nav>\n<app-workpositions></app-workpositions>\n\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-users\"></i>\n  Administración de Personas\n  </a>\n</nav>\n<app-persons></app-persons>\n\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-shopping-cart\"></i>\n   Administracion de Kpis\n   \n </a>\n</nav>\n<app-kpis></app-kpis>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-users\"></i>\n    Administracion de competencias\n  </a>\n</nav>\n<app-competencies></app-competencies>\n\n\n    <nav class=\"navbar navbar-dark bg-dark\">\n      <a href=\"/\" class=\"navbar-brand\">\n        <i class=\"fas fa-file-alt\"></i>\n\n  Designacion de evaluaciones\n  </a>\n</nav>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-clipboard-check\"></i>\n   \n  Evaluacion (Evaluador)\n  </a>\n</nav>\n-->\n"
 
 /***/ }),
 
@@ -76,35 +76,37 @@ var AppComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser_animations__ = __webpack_require__("./node_modules/@angular/platform-browser/esm5/animations.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/esm5/ngx-toastr.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__app_component__ = __webpack_require__("./src/app/app.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_angularfire2__ = __webpack_require__("./node_modules/angularfire2/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_angularfire2_database__ = __webpack_require__("./node_modules/angularfire2/database/index.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__environments_environment__ = __webpack_require__("./src/environments/environment.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__components_persons_persons_component__ = __webpack_require__("./src/app/components/persons/persons.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_persons_persons_list_persons_list_component__ = __webpack_require__("./src/app/components/persons/persons-list/persons-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_persons_person_person_component__ = __webpack_require__("./src/app/components/persons/person/person.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__services_person_service__ = __webpack_require__("./src/app/services/person.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__components_kpis_kpis_component__ = __webpack_require__("./src/app/components/kpis/kpis.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_kpis_kpi_list_kpi_list_component__ = __webpack_require__("./src/app/components/kpis/kpi-list/kpi-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_kpis_kpi_kpi_component__ = __webpack_require__("./src/app/components/kpis/kpi/kpi.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__services_kpi_service__ = __webpack_require__("./src/app/services/kpi.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__components_workpositions_workpositions_component__ = __webpack_require__("./src/app/components/workpositions/workpositions.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_workpositions_workposition_workposition_component__ = __webpack_require__("./src/app/components/workpositions/workposition/workposition.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_workpositions_workpositions_list_workpositions_list_component__ = __webpack_require__("./src/app/components/workpositions/workpositions-list/workpositions-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__services_workposition_service__ = __webpack_require__("./src/app/services/workposition.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__components_competencies_competencies_component__ = __webpack_require__("./src/app/components/competencies/competencies.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_competencies_competency_competency_component__ = __webpack_require__("./src/app/components/competencies/competency/competency.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_competencies_competencies_list_competencies_list_component__ = __webpack_require__("./src/app/components/competencies/competencies-list/competencies-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__services_competency_service__ = __webpack_require__("./src/app/services/competency.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__components_kpis_workpositionskpi_list_workpositionskpi_list_component__ = __webpack_require__("./src/app/components/kpis/workpositionskpi-list/workpositionskpi-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_kpis_competencieskpi_list_competencieskpi_list_component__ = __webpack_require__("./src/app/components/kpis/competencieskpi-list/competencieskpi-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_persons_evaluadores_evaluadores_component__ = __webpack_require__("./src/app/components/persons/evaluadores/evaluadores.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_persons_matriz_matriz_component__ = __webpack_require__("./src/app/components/persons/matriz/matriz.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_persons_evaluados_evaluados_component__ = __webpack_require__("./src/app/components/persons/evaluados/evaluados.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_persons_matriz_list_matriz_list_component__ = __webpack_require__("./src/app/components/persons/matriz-list/matriz-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__services_matriz_service__ = __webpack_require__("./src/app/services/matriz.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__components_persons_workpositionsperson_list_workpositionsperson_list_component__ = __webpack_require__("./src/app/components/persons/workpositionsperson-list/workpositionsperson-list.component.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__services_evaluadores_service__ = __webpack_require__("./src/app/services/evaluadores.service.ts");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36_ngx_pagination__ = __webpack_require__("./node_modules/ngx-pagination/dist/ngx-pagination.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__app_routes__ = __webpack_require__("./src/app/app.routes.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_angularfire2__ = __webpack_require__("./node_modules/angularfire2/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_angularfire2_database__ = __webpack_require__("./node_modules/angularfire2/database/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__environments_environment__ = __webpack_require__("./src/environments/environment.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__components_persons_persons_component__ = __webpack_require__("./src/app/components/persons/persons.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_persons_persons_list_persons_list_component__ = __webpack_require__("./src/app/components/persons/persons-list/persons-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__components_persons_person_person_component__ = __webpack_require__("./src/app/components/persons/person/person.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__services_person_service__ = __webpack_require__("./src/app/services/person.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__components_kpis_kpis_component__ = __webpack_require__("./src/app/components/kpis/kpis.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__components_kpis_kpi_list_kpi_list_component__ = __webpack_require__("./src/app/components/kpis/kpi-list/kpi-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__components_kpis_kpi_kpi_component__ = __webpack_require__("./src/app/components/kpis/kpi/kpi.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__services_kpi_service__ = __webpack_require__("./src/app/services/kpi.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__components_workpositions_workpositions_component__ = __webpack_require__("./src/app/components/workpositions/workpositions.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__components_workpositions_workposition_workposition_component__ = __webpack_require__("./src/app/components/workpositions/workposition/workposition.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__components_workpositions_workpositions_list_workpositions_list_component__ = __webpack_require__("./src/app/components/workpositions/workpositions-list/workpositions-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__services_workposition_service__ = __webpack_require__("./src/app/services/workposition.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__components_competencies_competencies_component__ = __webpack_require__("./src/app/components/competencies/competencies.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__components_competencies_competency_competency_component__ = __webpack_require__("./src/app/components/competencies/competency/competency.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__components_competencies_competencies_list_competencies_list_component__ = __webpack_require__("./src/app/components/competencies/competencies-list/competencies-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__services_competency_service__ = __webpack_require__("./src/app/services/competency.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__components_kpis_workpositionskpi_list_workpositionskpi_list_component__ = __webpack_require__("./src/app/components/kpis/workpositionskpi-list/workpositionskpi-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_29__components_kpis_competencieskpi_list_competencieskpi_list_component__ = __webpack_require__("./src/app/components/kpis/competencieskpi-list/competencieskpi-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_30__components_persons_evaluadores_evaluadores_component__ = __webpack_require__("./src/app/components/persons/evaluadores/evaluadores.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_31__components_persons_matriz_matriz_component__ = __webpack_require__("./src/app/components/persons/matriz/matriz.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_32__components_persons_evaluados_evaluados_component__ = __webpack_require__("./src/app/components/persons/evaluados/evaluados.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_33__components_persons_matriz_list_matriz_list_component__ = __webpack_require__("./src/app/components/persons/matriz-list/matriz-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_34__services_matriz_service__ = __webpack_require__("./src/app/services/matriz.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_35__components_persons_workpositionsperson_list_workpositionsperson_list_component__ = __webpack_require__("./src/app/components/persons/workpositionsperson-list/workpositionsperson-list.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__services_evaluadores_service__ = __webpack_require__("./src/app/services/evaluadores.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_37_ngx_pagination__ = __webpack_require__("./node_modules/ngx-pagination/dist/ngx-pagination.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_inicio_inicio_component__ = __webpack_require__("./src/app/components/inicio/inicio.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -120,6 +122,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 //toastr
 
+
+//rutAS
 
 //firebase 
 
@@ -155,6 +159,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -162,53 +167,104 @@ var AppModule = /** @class */ (function () {
         Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */],
-                __WEBPACK_IMPORTED_MODULE_11__components_persons_persons_component__["a" /* PersonsComponent */],
-                __WEBPACK_IMPORTED_MODULE_12__components_persons_persons_list_persons_list_component__["a" /* PersonsListComponent */],
-                __WEBPACK_IMPORTED_MODULE_13__components_persons_person_person_component__["a" /* PersonComponent */],
-                __WEBPACK_IMPORTED_MODULE_15__components_kpis_kpis_component__["a" /* KpisComponent */],
-                __WEBPACK_IMPORTED_MODULE_16__components_kpis_kpi_list_kpi_list_component__["a" /* KpiListComponent */],
-                __WEBPACK_IMPORTED_MODULE_17__components_kpis_kpi_kpi_component__["a" /* KpiComponent */],
-                __WEBPACK_IMPORTED_MODULE_19__components_workpositions_workpositions_component__["a" /* WorkpositionsComponent */],
-                __WEBPACK_IMPORTED_MODULE_20__components_workpositions_workposition_workposition_component__["a" /* WorkpositionComponent */],
-                __WEBPACK_IMPORTED_MODULE_21__components_workpositions_workpositions_list_workpositions_list_component__["a" /* WorkpositionsListComponent */],
-                __WEBPACK_IMPORTED_MODULE_23__components_competencies_competencies_component__["a" /* CompetenciesComponent */],
-                __WEBPACK_IMPORTED_MODULE_24__components_competencies_competency_competency_component__["a" /* CompetencyComponent */],
-                __WEBPACK_IMPORTED_MODULE_25__components_competencies_competencies_list_competencies_list_component__["a" /* CompetenciesListComponent */],
-                __WEBPACK_IMPORTED_MODULE_27__components_kpis_workpositionskpi_list_workpositionskpi_list_component__["a" /* WorkpositionskpiListComponent */],
-                __WEBPACK_IMPORTED_MODULE_28__components_kpis_competencieskpi_list_competencieskpi_list_component__["a" /* CompetencieskpiListComponent */],
-                __WEBPACK_IMPORTED_MODULE_29__components_persons_evaluadores_evaluadores_component__["a" /* EvaluadoresComponent */],
-                __WEBPACK_IMPORTED_MODULE_30__components_persons_matriz_matriz_component__["a" /* MatrizComponent */],
-                __WEBPACK_IMPORTED_MODULE_31__components_persons_evaluados_evaluados_component__["a" /* EvaluadosComponent */],
-                __WEBPACK_IMPORTED_MODULE_32__components_persons_matriz_list_matriz_list_component__["a" /* MatrizListComponent */],
-                __WEBPACK_IMPORTED_MODULE_34__components_persons_workpositionsperson_list_workpositionsperson_list_component__["a" /* WorkpositionspersonListComponent */]
+                __WEBPACK_IMPORTED_MODULE_12__components_persons_persons_component__["a" /* PersonsComponent */],
+                __WEBPACK_IMPORTED_MODULE_13__components_persons_persons_list_persons_list_component__["a" /* PersonsListComponent */],
+                __WEBPACK_IMPORTED_MODULE_14__components_persons_person_person_component__["a" /* PersonComponent */],
+                __WEBPACK_IMPORTED_MODULE_16__components_kpis_kpis_component__["a" /* KpisComponent */],
+                __WEBPACK_IMPORTED_MODULE_17__components_kpis_kpi_list_kpi_list_component__["a" /* KpiListComponent */],
+                __WEBPACK_IMPORTED_MODULE_18__components_kpis_kpi_kpi_component__["a" /* KpiComponent */],
+                __WEBPACK_IMPORTED_MODULE_20__components_workpositions_workpositions_component__["a" /* WorkpositionsComponent */],
+                __WEBPACK_IMPORTED_MODULE_21__components_workpositions_workposition_workposition_component__["a" /* WorkpositionComponent */],
+                __WEBPACK_IMPORTED_MODULE_22__components_workpositions_workpositions_list_workpositions_list_component__["a" /* WorkpositionsListComponent */],
+                __WEBPACK_IMPORTED_MODULE_24__components_competencies_competencies_component__["a" /* CompetenciesComponent */],
+                __WEBPACK_IMPORTED_MODULE_25__components_competencies_competency_competency_component__["a" /* CompetencyComponent */],
+                __WEBPACK_IMPORTED_MODULE_26__components_competencies_competencies_list_competencies_list_component__["a" /* CompetenciesListComponent */],
+                __WEBPACK_IMPORTED_MODULE_28__components_kpis_workpositionskpi_list_workpositionskpi_list_component__["a" /* WorkpositionskpiListComponent */],
+                __WEBPACK_IMPORTED_MODULE_29__components_kpis_competencieskpi_list_competencieskpi_list_component__["a" /* CompetencieskpiListComponent */],
+                __WEBPACK_IMPORTED_MODULE_30__components_persons_evaluadores_evaluadores_component__["a" /* EvaluadoresComponent */],
+                __WEBPACK_IMPORTED_MODULE_31__components_persons_matriz_matriz_component__["a" /* MatrizComponent */],
+                __WEBPACK_IMPORTED_MODULE_32__components_persons_evaluados_evaluados_component__["a" /* EvaluadosComponent */],
+                __WEBPACK_IMPORTED_MODULE_33__components_persons_matriz_list_matriz_list_component__["a" /* MatrizListComponent */],
+                __WEBPACK_IMPORTED_MODULE_35__components_persons_workpositionsperson_list_workpositionsperson_list_component__["a" /* WorkpositionspersonListComponent */],
+                __WEBPACK_IMPORTED_MODULE_38__components_inicio_inicio_component__["a" /* InicioComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
                 //Para referenciar la BD en la app
-                __WEBPACK_IMPORTED_MODULE_8_angularfire2__["a" /* AngularFireModule */].initializeApp(__WEBPACK_IMPORTED_MODULE_10__environments_environment__["a" /* environment */].firebase),
-                __WEBPACK_IMPORTED_MODULE_9_angularfire2_database__["b" /* AngularFireDatabaseModule */],
-                __WEBPACK_IMPORTED_MODULE_36_ngx_pagination__["a" /* NgxPaginationModule */],
+                __WEBPACK_IMPORTED_MODULE_9_angularfire2__["a" /* AngularFireModule */].initializeApp(__WEBPACK_IMPORTED_MODULE_11__environments_environment__["a" /* environment */].firebase),
+                __WEBPACK_IMPORTED_MODULE_10_angularfire2_database__["b" /* AngularFireDatabaseModule */],
+                __WEBPACK_IMPORTED_MODULE_37_ngx_pagination__["a" /* NgxPaginationModule */],
                 __WEBPACK_IMPORTED_MODULE_3_ng2_search_filter__["a" /* Ng2SearchPipeModule */],
                 //
                 __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormsModule */],
                 __WEBPACK_IMPORTED_MODULE_4_ng2_order_pipe__["Ng2OrderModule"],
                 //
                 __WEBPACK_IMPORTED_MODULE_5__angular_platform_browser_animations__["a" /* BrowserAnimationsModule */],
-                __WEBPACK_IMPORTED_MODULE_6_ngx_toastr__["a" /* ToastrModule */].forRoot()
+                __WEBPACK_IMPORTED_MODULE_6_ngx_toastr__["a" /* ToastrModule */].forRoot(),
+                __WEBPACK_IMPORTED_MODULE_8__app_routes__["a" /* AppRoutingModule */]
             ],
             providers: [
                 //servicios
-                __WEBPACK_IMPORTED_MODULE_14__services_person_service__["a" /* PersonService */],
-                __WEBPACK_IMPORTED_MODULE_18__services_kpi_service__["a" /* KpiService */],
-                __WEBPACK_IMPORTED_MODULE_22__services_workposition_service__["a" /* WorkpositionService */],
-                __WEBPACK_IMPORTED_MODULE_26__services_competency_service__["a" /* CompetencyService */],
-                __WEBPACK_IMPORTED_MODULE_33__services_matriz_service__["a" /* MatrizService */],
-                __WEBPACK_IMPORTED_MODULE_35__services_evaluadores_service__["a" /* EvaluadoresService */]
+                __WEBPACK_IMPORTED_MODULE_15__services_person_service__["a" /* PersonService */],
+                __WEBPACK_IMPORTED_MODULE_19__services_kpi_service__["a" /* KpiService */],
+                __WEBPACK_IMPORTED_MODULE_23__services_workposition_service__["a" /* WorkpositionService */],
+                __WEBPACK_IMPORTED_MODULE_27__services_competency_service__["a" /* CompetencyService */],
+                __WEBPACK_IMPORTED_MODULE_34__services_matriz_service__["a" /* MatrizService */],
+                __WEBPACK_IMPORTED_MODULE_36__services_evaluadores_service__["a" /* EvaluadoresService */]
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */]]
         })
     ], AppModule);
     return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/app.routes.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppRoutingModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_router__ = __webpack_require__("./node_modules/@angular/router/esm5/router.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_workpositions_workpositions_component__ = __webpack_require__("./src/app/components/workpositions/workpositions.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_persons_persons_component__ = __webpack_require__("./src/app/components/persons/persons.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_kpis_kpis_component__ = __webpack_require__("./src/app/components/kpis/kpis.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_competencies_competencies_component__ = __webpack_require__("./src/app/components/competencies/competencies.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_inicio_inicio_component__ = __webpack_require__("./src/app/components/inicio/inicio.component.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var APP_ROUTES = [
+    { path: '', redirectTo: 'inicio', pathMatch: 'full' },
+    { path: 'inicio', component: __WEBPACK_IMPORTED_MODULE_6__components_inicio_inicio_component__["a" /* InicioComponent */] },
+    { path: 'workpositions', component: __WEBPACK_IMPORTED_MODULE_2__components_workpositions_workpositions_component__["a" /* WorkpositionsComponent */] },
+    { path: 'persons', component: __WEBPACK_IMPORTED_MODULE_3__components_persons_persons_component__["a" /* PersonsComponent */] },
+    { path: 'indicadores', component: __WEBPACK_IMPORTED_MODULE_4__components_kpis_kpis_component__["a" /* KpisComponent */] },
+    { path: 'competencias', component: __WEBPACK_IMPORTED_MODULE_5__components_competencies_competencies_component__["a" /* CompetenciesComponent */] }
+];
+var AppRoutingModule = /** @class */ (function () {
+    function AppRoutingModule() {
+    }
+    AppRoutingModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["NgModule"])({
+            imports: [__WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */].forRoot(APP_ROUTES)],
+            exports: [__WEBPACK_IMPORTED_MODULE_0__angular_router__["a" /* RouterModule */]]
+        })
+    ], AppRoutingModule);
+    return AppRoutingModule;
 }());
 
 
@@ -225,7 +281,7 @@ module.exports = ""
 /***/ "./src/app/components/competencies/competencies-list/competencies-list.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> Lista de competencias</h6>\n    <table class=\"table table-sm table-hover table-warning\">\n      \n      <tbody>\n          <tr *ngFor =\"let competency of competenciesList\">\n          <td>{{competency.name}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(competency)\">\n              <i class=\"far fa-edit\"></i>\n              Editar\n            </a>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(competency.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n              Borrar\n            </a>\n          </td>\n\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>"
+module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> Lista de competencias</h6>\n    <table class=\"table table-sm table-hover \">\n      \n      <tbody>\n          <tr *ngFor =\"let competency of competenciesList\">\n          <td>{{competency.name}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(competency)\">\n              <i class=\"far fa-edit\"></i>\n              Editar\n            </a>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(competency.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n              Borrar\n            </a>\n          </td>\n\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -354,7 +410,7 @@ module.exports = ""
 /***/ "./src/app/components/competencies/competency/competency.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5 bg-success\">\n  <div class=\"card-body\">\n    <form #competencyForm=\"ngForm\" (ngSubmit)=\"onSubmit(competencyForm)\">\n      <input type=\"hidden\" name=\"$key\" #$key=\"ngModel\" [(ngModel)]=\"competencyService.selectedCompetency.$key\">\n\n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"name\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"competencyService.selectedCompetency.name\"\n          placeholder=\"Agrega el nombre de la competencia\"\n        >\n      </div>\n      \n    \n      <div class=\"form-group\">\n        <button class=\"btn btn-primary\" type=\"submit\">\n          <i class=\"fas fa-plus-circle\"></i> Agregar\n        </button>\n        <button class=\"btn btn-secondary\" type=\"reset\" (click)=\"resetForm(personForm)\">\n          <i class=\"fas fa-sync-alt\"></i> Limpiar\n        </button>\n        </div>\n    </form>\n  </div>\n</div>\n"
+module.exports = "<div class=\"card mt-5 mb-5 bg-dark\">\n  <div class=\"card-body\">\n    <form #competencyForm=\"ngForm\" (ngSubmit)=\"onSubmit(competencyForm)\">\n      <input type=\"hidden\" name=\"$key\" #$key=\"ngModel\" [(ngModel)]=\"competencyService.selectedCompetency.$key\">\n\n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"name\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"competencyService.selectedCompetency.name\"\n          placeholder=\"Agrega el nombre de la competencia\"\n        >\n      </div>\n      \n    \n      <div class=\"form-group\">\n        <button class=\"btn btn-primary\" type=\"submit\">\n          <i class=\"fas fa-plus-circle\"></i> Agregar\n        </button>\n        <button class=\"btn btn-secondary\" type=\"reset\" (click)=\"resetForm(personForm)\">\n          <i class=\"fas fa-sync-alt\"></i> Limpiar\n        </button>\n        </div>\n    </form>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -417,6 +473,56 @@ var CompetencyComponent = /** @class */ (function () {
             __WEBPACK_IMPORTED_MODULE_2_ngx_toastr__["b" /* ToastrService */]])
     ], CompetencyComponent);
     return CompetencyComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/inicio/inicio.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/components/inicio/inicio.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card text-center\">\n  <div class=\"card-header\">\n    Featured\n  </div>\n  <div class=\"card-body\">\n    <h5 class=\"card-title\">Version 0.34</h5>\n    <p class=\"card-text\">APP en estado de pruebas</p>\n    <a href=\"workpositions\" class=\"btn btn-primary\">Probar</a>\n  </div>\n  <div class=\"card-footer text-muted\">\n    1 days ago\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/components/inicio/inicio.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return InicioComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var InicioComponent = /** @class */ (function () {
+    function InicioComponent() {
+    }
+    InicioComponent.prototype.ngOnInit = function () {
+    };
+    InicioComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-inicio',
+            template: __webpack_require__("./src/app/components/inicio/inicio.component.html"),
+            styles: [__webpack_require__("./src/app/components/inicio/inicio.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], InicioComponent);
+    return InicioComponent;
 }());
 
 
@@ -509,7 +615,7 @@ module.exports = ""
 /***/ "./src/app/components/kpis/kpi-list/kpi-list.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> Lista de Kpis</h6>\n    <table class=\"table table-sm table-hover\">\n      \n      <tbody>\n          <tr *ngFor =\"let kpi of kpiList\">\n          <td>{{kpi.nombre}}</td>\n          <td>{{kpi.objetivo}}</td> \n          <td>{{kpi.cargo}}</td> \n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(kpi)\">\n              <i class=\"far fa-edit\"></i>\n              Editar\n            </a>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(kpi.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n              Borrar\n            </a>\n          </td>\n\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>"
+module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> Lista de Kpis</h6>\n\n    <nav class=\"navbar\">\n      <input class=\"form-control\" type=\"text\" name=\"search\" [(ngModel)]=\"filter\">      \n    </nav>\n    <table class=\"table table-sm table-hover\">\n      <thead class=\"thead-light\">\n        <tr>\n          <th scope=\"col\">Indicador Macro</th>\n          <th scope=\"col\">Indicador por proceso</th>\n          <th scope=\"col\">Indicador</th>\n          \n          <th scope=\"col\">Cargo</th>\n        </tr>\n      </thead>\n      <tbody>\n          <tr *ngFor =\"let kpi of kpiList |filter:filter |paginate: { itemsPerPage: 10, currentPage: p11, id: 'eleven' }; let i = index\">\n          \n          \n          <td>{{kpi.indicadorMacro}}</td> \n          <td>{{kpi.indicadorProceso}}</td> \n          <td>{{kpi.indicador}}</td>\n          \n          <td>{{kpi.cargo}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(kpi)\">\n              <i class=\"far fa-edit\"></i>\n      \n            </a>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(kpi.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n                       </a>\n          </td>\n\n        </tr>\n      </tbody>\n      <pagination-controls (pageChange)=\"p11 =$event\" id=\"eleven\"></pagination-controls>\n    </table>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -539,6 +645,7 @@ var KpiListComponent = /** @class */ (function () {
     function KpiListComponent(kpiService, toastr) {
         this.kpiService = kpiService;
         this.toastr = toastr;
+        this.p11 = 1;
     }
     KpiListComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -588,7 +695,7 @@ module.exports = ""
 /***/ "./src/app/components/kpis/kpi/kpi.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5 bg-danger\">\n  <div class=\"card-body\">\n    <form #kpiForm=\"ngForm\" (ngSubmit)=\"onSubmit(kpiForm)\">\n      <input type=\"hidden\" name=\"$key\" #$key=\"ngModel\" [(ngModel)]=\"kpiService.selectedKpi.$key\">\n      <input type=\"text\"  name=\"cargo\" #name=\"ngModel\" [(ngModel)]=\"kpiService.selectedKpi.cargo\">\n \n      \n\n     \n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"nombre\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"kpiService.selectedKpi.nombre\"\n          placeholder=\"Agrega el nombre del kpi\"\n        >\n      </div>\n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"objetivo\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"kpiService.selectedKpi.objetivo\"\n          placeholder=\"Agrega el objetivo del kpi\"\n        >\n      </div>\n\n      \n\n      \n      \n      <div class=\"form-group\">\n        <button class=\"btn btn-primary\" type=\"submit\">\n          <i class=\"fas fa-plus-circle\"></i> Agregar kpi\n        </button>\n        <button class=\"btn btn-secondary\" type=\"reset\" (click)=\"resetForm(kpiForm)\">\n          <i class=\"fas fa-sync-alt\"></i> Limpiar\n        </button>\n        </div>\n    </form>\n  </div>\n</div>\n"
+module.exports = "<div class=\"card mt-5 mb-5 bg-light\">\n  <div class=\"card-body\">\n    <form #kpiForm=\"ngForm\" (ngSubmit)=\"onSubmit(kpiForm)\">\n      <input type=\"hidden\" name=\"$key\" #$key=\"ngModel\" [(ngModel)]=\"kpiService.selectedKpi.$key\">\n      <!--<input type=\"text\"  name=\"cargo\" #name=\"ngModel\" [(ngModel)]=\"kpiService.selectedKpi.cargo\">-->\n \n      \n\n      <div class=\"form-group\">\n        <input \n        readonly\n          type=\"text\"\n          class=\"form-control\" \n          name=\"cargo\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"kpiService.selectedKpi.cargo\"\n          placeholder=\"Selecciona el cargo de la lista\"\n        >\n      </div>\n\n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"indicadorMacro\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"kpiService.selectedKpi.indicadorMacro\"\n          placeholder=\"Agrega el indicador macro\"\n        >\n      </div>\n      \n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"indicadorProceso\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"kpiService.selectedKpi.indicadorProceso\"\n          placeholder=\"Agrega el indicador por proceso\"\n        >\n      </div>\n\n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"indicador\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"kpiService.selectedKpi.indicador\"\n          placeholder=\"Agrega el indicador Principal\"\n        >\n      </div>\n      \n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"objetivo\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"kpiService.selectedKpi.objetivo\"\n          placeholder=\"Descripción de la base objetivo\"\n        >\n      </div>\n\n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"cumplimiento\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"kpiService.selectedKpi.cumplimiento\"\n          placeholder=\"Descripción del valor de cumplimiento\"\n        >\n      </div>\n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"calculo\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"kpiService.selectedKpi.calculo\"\n          placeholder=\"Agrega el tipo de calculo D / I\"\n        >\n      </div>\n    \n      <div class=\"form-group\">\n        <button class=\"btn btn-primary\" type=\"submit\">\n          <i class=\"fas fa-plus-circle\"></i> Agregar kpi\n        </button>\n        <button class=\"btn btn-secondary\" type=\"reset\" (click)=\"resetForm(kpiForm)\">\n          <i class=\"fas fa-sync-alt\"></i> Limpiar\n        </button>\n        </div>\n    </form>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -627,14 +734,10 @@ var KpiComponent = /** @class */ (function () {
     };
     KpiComponent.prototype.onSubmit = function (kpiForm) {
         if (kpiForm.value.$key == null) {
-            kpiForm.value.cumplimiento = 0;
-            kpiForm.value.porcentaje = 0;
             this.kpiService.insertKpi(kpiForm.value);
             this.toastr.success('Operación Existosa', 'Nuevo kpi Agregado');
         }
         else {
-            kpiForm.value.cumplimiento = 0;
-            kpiForm.value.porcentaje = 0;
             this.kpiService.updateKpi(kpiForm.value);
             this.toastr.success('Operación Existosa', 'kpi ha sido Editada');
         }
@@ -671,7 +774,7 @@ module.exports = ""
 /***/ "./src/app/components/kpis/kpis.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-4\">\n      <app-kpi></app-kpi>\n    </div>\n    <div class=\"col-md-4 text-center\">\n      <app-workpositionskpi-list></app-workpositionskpi-list>\n    </div>\n    <div class=\"col-md-4 text-center\">\n    <app-competencieskpi-list></app-competencieskpi-list></div>\n    <div class=\"col-md-8 text-center\">\n      <app-kpi-list></app-kpi-list>\n    </div>\n  </div>\n</div>\n\n"
+module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-4\">\n      <app-kpi></app-kpi>\n    </div>\n    <div class=\"col-md-8 text-center\">\n      <app-workpositionskpi-list></app-workpositionskpi-list>\n    </div>\n    <!--<div class=\"col-md-4 text-center\">\n    <app-competencieskpi-list></app-competencieskpi-list></div>-->\n    <div class=\"col-md-20 text-center\">\n      <app-kpi-list></app-kpi-list>\n    </div>\n  </div>\n</div>\n\n"
 
 /***/ }),
 
@@ -721,7 +824,7 @@ module.exports = ""
 /***/ "./src/app/components/kpis/workpositionskpi-list/workpositionskpi-list.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> Lista de Cargos</h6>\n    <table class=\"table table-sm table-hover table-warning\">\n      \n      <tbody>\n          <tr *ngFor =\"let workposition of workpositionsList\">\n          <td>{{workposition.name}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(workposition.name)\">\n              <i class=\"far fa-edit\"></i>\n              Relacionar\n            </a>\n           <!-- <a class=\"btn btn-danger text-white\" (click)=\"onDelete(workposition.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n              Borrar\n            </a>-->\n          </td>\n\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>"
+module.exports = "<!--<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> Lista de Cargos</h6>\n    <table class=\"table table-sm table-hover table-warning\">\n      \n      <tbody>\n          <tr *ngFor =\"let workposition of workpositionsList\">\n          <td>{{workposition.name}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(workposition.name)\">\n              <i class=\"far fa-edit\"></i>\n              Relacionar\n            </a>\n           <a class=\"btn btn-danger text-white\" (click)=\"onDelete(workposition.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n              Borrar\n            </a>\n          </td>\n\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>\n-->\n\n\n<div class=\"card mt-3 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> LISTA DE CARGOS</h6>\n    \n    <nav class=\"navbar\">\n        <input class=\"form-control\" type=\"text\" name=\"search\" [(ngModel)]=\"filter\">      \n      </nav>\n    <table class=\"table table-sm table-hover table-light\">\n      \n      <tbody>\n          \n\n            <thead>\n                <tr>\n                  \n                  \n                </tr>\n              </thead>\n          <tr *ngFor =\"let workposition of workpositionsList |filter:filter |paginate: { itemsPerPage: 5, currentPage: p10, id: 'ten' }; let i = index\">\n          <td>{{workposition.name}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(workposition.name)\">\n              <i class=\"far fa-edit\"></i>\n            \n            </a>\n            \n          </td>\n\n        </tr>\n      </tbody>\n      <pagination-controls (pageChange)=\"p10 = $event\" id=\"ten\"></pagination-controls>\n    </table>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -755,6 +858,7 @@ var WorkpositionskpiListComponent = /** @class */ (function () {
         this.workpositionService = workpositionService;
         this.kpiService = kpiService;
         this.toastr = toastr;
+        this.p10 = 1;
     }
     WorkpositionskpiListComponent.prototype.ngOnInit = function () {
         var _this = this;
@@ -1120,7 +1224,7 @@ module.exports = ""
 /***/ "./src/app/components/persons/person/person.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5 bg-light\">\n  <div class=\"card-body\">\n    <form #personForm=\"ngForm\" (ngSubmit)=\"onSubmit(personForm)\">\n      <input type=\"hidden\" name=\"$key\" #$key=\"ngModel\" [(ngModel)]=\"personService.selectedPerson.$key\">\n\n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"cedula\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.cedula\"\n          placeholder=\"Agrega el numero de cedula\"\n        >\n      </div>\n\n      <div class=\"form-group\">\n          <input \n            type=\"text\"\n            class=\"form-control\" \n            name=\"name\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.name\"\n            placeholder=\"Agrega el nombre de la persona\"\n          >\n      </div>\n<!--readonly-->\n      <div class=\"form-group\">\n            <input readonly\n              type=\"text\"\n              class=\"form-control\" \n              name=\"cargo\"\n              #name=\"ngModel\"\n              [(ngModel)]=\"personService.selectedPerson.cargo\"\n              placeholder=\"Selecciona un cargo de la Lista\"\n            >\n      </div>\n\n      <div class=\"form-group\">\n          <input \n            type=\"text\"\n            class=\"form-control\" \n            name=\"estructurafisicacostos\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.estructurafisicacostos\"\n            placeholder=\"Agrega la estructura física de costos\"\n          >\n        </div>\n\n        <div class=\"form-group\">\n            <input \n              type=\"text\"\n              class=\"form-control\" \n              name=\"estructuraorganizacional\"\n              #name=\"ngModel\"\n              [(ngModel)]=\"personService.selectedPerson.estructuraorganizacional\"\n              placeholder=\"Agrega la estructura organizacional\"\n            >\n          </div>\n\n        \n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"area\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.area\"\n          placeholder=\"Agrega el area\"\n        >\n      </div>\n\n\n      <div class=\"form-group\">\n          <input  \n            type=\"text\"\n            class=\"form-control\" \n            name=\"ciudad\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.ciudad\"\n            placeholder=\"Selecciona una sucursal\"\n          >\n        </div>\n      \n      \n      \n      \n<!--\n\n\n \n\n\n      <div class=\"input-group mb-3\">\n          <div class=\"input-group-prepend\">\n            <label class=\"input-group-text\" for=\"inputGroupSelect01\">Ciudad</label>\n          </div>\n          <select name=\"ciudad\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.ciudad\"\n          class=\"custom-select\">\n            <option value=\"Quito\">Quito</option>\n            <option value=\"Guayaquil\">Guayaquil</option>\n            <option value=\"Cuenca\">Cuenca</option>\n            <option value=\"Loja\">Loja</option>\n            <option value=\"Napo\">Napo</option>\n          </select>\n        </div>\n\n        <div class=\"col-sm-10 mb-3 mt-6\">\n          <div class=\"form-check mt-4\">\n            <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios1\" value=\"false\" checked  name=\"evaluador\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.evaluador\">\n            <label class=\"form-check-label\" for=\"gridRadios1\">\n              Evaluado\n            </label>\n          </div>\n          <div class=\"form-check\">\n            <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios2\" value=\"true\"  name=\"evaluador\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.evaluador\">\n            <label class=\"form-check-label\" for=\"gridRadios2\">\n              Evaluador\n            </label>\n          </div>\n        </div>\n        -->\n     \n\n    \n      <div class=\"form-group\">\n        <button class=\"btn btn-primary\" type=\"submit\">\n          <i class=\"fas fa-plus-circle\"></i> Agregar\n        </button>\n        <button class=\"btn btn-secondary\" type=\"reset\" (click)=\"resetForm(personForm)\">\n          <i class=\"fas fa-sync-alt\"></i> Limpiar\n        </button>\n        </div>\n    </form>\n  </div>\n</div>\n"
+module.exports = "<div class=\"card mt-5 mb-5 bg-light\">\n  <div class=\"card-body\">\n    <form #personForm=\"ngForm\" (ngSubmit)=\"onSubmit(personForm)\">\n      <input type=\"hidden\" name=\"$key\" #$key=\"ngModel\" [(ngModel)]=\"personService.selectedPerson.$key\">\n\n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"cedula\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.cedula\"\n          placeholder=\"Agrega el numero de cedula\"\n        >\n      </div>\n\n      <div class=\"form-group\">\n          <input \n            type=\"text\"\n            class=\"form-control\" \n            name=\"name\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.name\"\n            placeholder=\"Agrega el nombre de la persona\"\n          >\n      </div>\n<!--readonly-->\n      <div class=\"form-group\">\n            <input \n              type=\"text\"\n              class=\"form-control\" \n              name=\"cargo\"\n              #name=\"ngModel\"\n              [(ngModel)]=\"personService.selectedPerson.cargo\"\n              placeholder=\"Selecciona un cargo de la Lista\"\n            >\n      </div>\n\n      <div class=\"form-group\">\n          <input \n            type=\"text\"\n            class=\"form-control\" \n            name=\"estructurafisicacostos\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.estructurafisicacostos\"\n            placeholder=\"Agrega la estructura física de costos\"\n          >\n        </div>\n\n        <div class=\"form-group\">\n            <input \n              type=\"text\"\n              class=\"form-control\" \n              name=\"estructuraorganizacional\"\n              #name=\"ngModel\"\n              [(ngModel)]=\"personService.selectedPerson.estructuraorganizacional\"\n              placeholder=\"Agrega la estructura organizacional\"\n            >\n          </div>\n\n        \n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"area\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.area\"\n          placeholder=\"Agrega el area\"\n        >\n      </div>\n\n\n      <div class=\"form-group\">\n          <input  \n            type=\"text\"\n            class=\"form-control\" \n            name=\"ciudad\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.ciudad\"\n            placeholder=\"Selecciona una sucursal\"\n          >\n        </div>\n      \n      \n      \n      \n<!--\n\n\n \n\n\n      <div class=\"input-group mb-3\">\n          <div class=\"input-group-prepend\">\n            <label class=\"input-group-text\" for=\"inputGroupSelect01\">Ciudad</label>\n          </div>\n          <select name=\"ciudad\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.ciudad\"\n          class=\"custom-select\">\n            <option value=\"Quito\">Quito</option>\n            <option value=\"Guayaquil\">Guayaquil</option>\n            <option value=\"Cuenca\">Cuenca</option>\n            <option value=\"Loja\">Loja</option>\n            <option value=\"Napo\">Napo</option>\n          </select>\n        </div>\n\n        <div class=\"col-sm-10 mb-3 mt-6\">\n          <div class=\"form-check mt-4\">\n            <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios1\" value=\"false\" checked  name=\"evaluador\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.evaluador\">\n            <label class=\"form-check-label\" for=\"gridRadios1\">\n              Evaluado\n            </label>\n          </div>\n          <div class=\"form-check\">\n            <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios2\" value=\"true\"  name=\"evaluador\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.evaluador\">\n            <label class=\"form-check-label\" for=\"gridRadios2\">\n              Evaluador\n            </label>\n          </div>\n        </div>\n        -->\n     \n\n    \n      <div class=\"form-group\">\n        <button class=\"btn btn-primary\" type=\"submit\">\n          <i class=\"fas fa-plus-circle\"></i> Agregar\n        </button>\n        <button class=\"btn btn-secondary\" type=\"reset\" (click)=\"resetForm(personForm)\">\n          <i class=\"fas fa-sync-alt\"></i> Limpiar\n        </button>\n        </div>\n    </form>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1576,7 +1680,7 @@ module.exports = ""
 /***/ "./src/app/components/workpositions/workpositions.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"container\">\n  <div class=\"row\">\n      \n    <div class=\"col-md-4\">\n      <app-workposition></app-workposition>\n    </div>\n    \n    <div class=\"col-md-7 text-center\">\n      <app-workpositions-list></app-workpositions-list>\n    </div>\n  </div>\n</div>\n"
+module.exports = "\n<div class=\"container\">\n  <div class=\"row\">\n      \n    <div class=\"col-md-4\">\n      <app-workposition></app-workposition>\n    </div>\n    \n    <div class=\"col-md-7 text-center\">\n      <app-workpositions-list></app-workpositions-list>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1828,21 +1932,24 @@ var KpiService = /** @class */ (function () {
     };
     KpiService.prototype.insertKpi = function (kpi) {
         this.kpiList.push({
-            nombre: kpi.nombre,
+            cargo: kpi.cargo,
+            indicadorMacro: kpi.indicadorMacro,
+            indicadorProceso: kpi.indicadorProceso,
+            indicador: kpi.indicador,
             objetivo: kpi.objetivo,
             cumplimiento: kpi.cumplimiento,
-            porcentaje: kpi.porcentaje,
-            cargo: kpi.cargo,
+            calculo: kpi.calculo
         });
     };
     KpiService.prototype.updateKpi = function (kpi) {
         this.kpiList.update(kpi.$key, {
-            nombre: kpi.nombre,
+            cargo: kpi.cargo,
+            indicadorMacro: kpi.indicadorMacro,
+            indicadorProceso: kpi.indicadorProceso,
+            indicador: kpi.indicador,
             objetivo: kpi.objetivo,
             cumplimiento: kpi.cumplimiento,
-            porcentaje: kpi.porcentaje,
-            cargo: kpi.cargo,
-            competencias: kpi.competencias
+            calculo: kpi.calculo
         });
     };
     KpiService.prototype.deleteKpi = function ($key) {

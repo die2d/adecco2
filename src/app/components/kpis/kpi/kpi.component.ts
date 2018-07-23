@@ -29,15 +29,12 @@ export class KpiComponent implements OnInit {
   onSubmit(kpiForm: NgForm){
     
     if(kpiForm.value.$key == null){
-      kpiForm.value.cumplimiento=0;
-      kpiForm.value.porcentaje=0;
+      
 
       this.kpiService.insertKpi(kpiForm.value);
       this.toastr.success('Operación Existosa', 'Nuevo kpi Agregado')
     }
     else{
-      kpiForm.value.cumplimiento=0;
-      kpiForm.value.porcentaje=0;
       this.kpiService.updateKpi(kpiForm.value);
       this.toastr.success('Operación Existosa', 'kpi ha sido Editada')
     }
