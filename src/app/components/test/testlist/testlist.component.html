@@ -1,0 +1,61 @@
+<div class="card mt-5 mb-5">
+  <div class="card-body">
+    <h6 class="test-center"> Lista de Evaluaciones</h6>
+
+    
+    <table class="table table-sm table-hover">
+      
+      <tbody *ngFor ="let test of testList">
+        
+        
+        <tr class="bg-success" *ngIf="test.color == 1">
+          
+          <td>{{test.cargo}}</td>
+          <td>{{test.nombre}}</td> 
+          <td>{{test.objetivo}}</td>
+          <td>{{test.porcentaje}}%</td>
+         
+        </tr>
+        <tr class="bg-warning" *ngIf="test.color == 2">
+          
+            <td>{{test.cargo}}</td>
+            <td>{{test.nombre}}</td> 
+            <td>{{test.objetivo}}</td>
+            <td>{{test.porcentaje}}%</td>
+           
+          </tr>
+
+          <tr class="bg-danger" *ngIf="test.color == 3">
+          
+              <td>{{test.cargo}}</td>
+              <td>{{test.nombre}}</td> 
+              <td>{{test.objetivo}}</td>
+              <td>{{test.porcentaje}}%</td>
+             
+            </tr>
+       
+
+
+
+      
+    
+      
+    
+          <!--
+            <td>
+            <a class="btn btn-secondary text-white" (click)="onEdit(kpi)">
+              <i class="far fa-edit"></i>
+      
+            </a>
+            <a class="btn btn-danger text-white" (click)="onDelete(kpi.$key)" >
+              <i class="fas fa-trash-alt"></i>
+                       </a>
+          </td> -->
+
+        
+      </tbody>
+      
+    </table>
+    
+  </div>
+</div>

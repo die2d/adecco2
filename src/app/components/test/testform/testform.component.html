@@ -1,0 +1,97 @@
+<div class="card mt-5 mb-5 bg-light">
+  <div class="card-body">
+    <form #testForm="ngForm" (ngSubmit)="onSubmit(testForm)">
+     <input type="hidden" name="$key" #$key="ngModel" [(ngModel)]="testService.selectedTest.$key">
+      
+
+      
+
+      <div class="form-group">
+        <input 
+      readonly
+          type="text"
+          class="form-control" 
+          name="cargo"
+          #name="ngModel"
+          [(ngModel)]="testService.selectedTest.cargo"
+          placeholder="Selecciona el cargo de la lista"
+        >
+      </div>
+
+    
+      <div class="form-group">
+        <input 
+        readonly
+          type="text"
+          class="form-control" 
+          name="nombre"
+          #name="ngModel"
+          [(ngModel)]="testService.selectedTest.nombre"
+          placeholder="Selecciona una persona de la lista"
+        >
+      </div>
+      <input type="hidden" name="cedula" #$key="ngModel" [(ngModel)]="testService.selectedTest.cedula">
+  
+ <h6>Ingreso del valor Objetivo</h6>
+      <div class="form-group">
+        <input 
+        readonly
+          type="text"
+          class="form-control" 
+          name="objetivo"
+          #name="ngModel"
+          [(ngModel)]="testService.selectedTest.objetivo"
+          placeholder="Selecciona un indicador de la lista"
+        >
+      </div>
+
+      <div class="form-group">
+        <input 
+       
+          type="text"
+          class="form-control" 
+          name="objetivoVal"
+          #name="ngModel"
+          [(ngModel)]="testService.selectedTest.objetivoVal"
+          placeholder="Ingresa el valor objetivo"
+        >
+      </div>
+
+      <h6>Ingreso del valor cumplido</h6>
+      <div class="form-group">
+        <input 
+        readonly
+          type="text"
+          class="form-control" 
+          name="cumplimiento"
+          #name="ngModel"
+          [(ngModel)]="testService.selectedTest.cumplimiento"
+          placeholder="Selecciona un indicador de la lista"
+        >
+      </div>
+
+      <div class="form-group">
+        <input 
+        
+          type="text"
+          class="form-control" 
+          name="cumplimientoVal"
+          #name="ngModel"
+          [(ngModel)]="testService.selectedTest.cumplimientoVal"
+          placeholder="Ingresa el valor cumplido"
+        >
+      </div>
+      <input type="hidden" name="calculo" #$key="ngModel" [(ngModel)]="testService.selectedTest.calculo">
+   
+      
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">
+          <i class="fas fa-plus-circle"></i> Agregar Evaluación 
+        </button>
+        <button class="btn btn-secondary" type="reset" (click)="resetForm(testForm)">
+          <i class="fas fa-sync-alt"></i> Limpiar
+        </button>
+        </div>
+    </form>
+  </div>
+</div>

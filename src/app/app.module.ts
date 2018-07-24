@@ -59,6 +59,13 @@ import { WorkpositionspersonListComponent } from './components/persons/workposit
 import { EvaluadoresService } from './services/evaluadores.service';
 import {NgxPaginationModule} from 'ngx-pagination';
 import { InicioComponent } from './components/inicio/inicio.component';
+import { TestComponent } from './components/test/test.component';
+import { TestcargosComponent } from './components/test/testcargos/testcargos.component';
+import { TestkpiComponent } from './components/test/testkpi/testkpi.component';
+import { TestpersonComponent } from './components/test/testperson/testperson.component';
+import { TestformComponent } from './components/test/testform/testform.component';
+import { TestlistComponent } from './components/test/testlist/testlist.component';
+import { TestService } from './services/test.service';
 
 @NgModule({
   declarations: [
@@ -82,7 +89,13 @@ import { InicioComponent } from './components/inicio/inicio.component';
     EvaluadosComponent,
     MatrizListComponent,
     WorkpositionspersonListComponent,
-    InicioComponent
+    InicioComponent,
+    TestComponent,
+    TestcargosComponent,
+    TestkpiComponent,
+    TestpersonComponent,
+    TestformComponent,
+    TestlistComponent
     
     
   ],
@@ -108,7 +121,8 @@ import { InicioComponent } from './components/inicio/inicio.component';
     WorkpositionService,
     CompetencyService,
     MatrizService,
-    EvaluadoresService
+    EvaluadoresService,
+    TestService
   ],
   bootstrap: [AppComponent]
 })

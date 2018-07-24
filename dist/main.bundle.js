@@ -27,7 +27,7 @@ module.exports = ""
 /***/ "./src/app/app.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "\n   <div class=\"card text-white bg-danger mt-3 mb-3\" style=\"width: 12rem;\">\n      <div class=\"card-body\">\n          \n        </div>\n    <img class=\"card-img-top\" src=\"https://www.adecco.com.ec/wp-content/themes/adecco-colombia/images/logo.svg\" alt=\"Card image cap\">\n    <div class=\"card-body\">\n      <p class=\"card-text\">App en Desarrollo.</p>\n    </div>\n  </div>\n  \n\n  <nav class=\"navbar navbar-expand-lg navbar navbar-dark bg-dark\">\n    <a class=\"navbar-brand\" href=\"#\">INICIO</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n  \n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n      <ul class=\"navbar-nav mr-auto\">\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"workpositions\">Cargos <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"persons\">Personas <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"indicadores\">Indicadores <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"competencias\">Competencias <span class=\"sr-only\">(current)</span></a>\n        </li>\n      </ul>\n      <form class=\"form-inline my-2 my-lg-0\">\n        <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n        <button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>\n      </form>\n    </div>\n  </nav>\n  \n  \n  <router-outlet></router-outlet>\n\n<!--\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-briefcase\"></i>\n    Administración de cargos\n  </a>\n</nav>\n<app-workpositions></app-workpositions>\n\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-users\"></i>\n  Administración de Personas\n  </a>\n</nav>\n<app-persons></app-persons>\n\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-shopping-cart\"></i>\n   Administracion de Kpis\n   \n </a>\n</nav>\n<app-kpis></app-kpis>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-users\"></i>\n    Administracion de competencias\n  </a>\n</nav>\n<app-competencies></app-competencies>\n\n\n    <nav class=\"navbar navbar-dark bg-dark\">\n      <a href=\"/\" class=\"navbar-brand\">\n        <i class=\"fas fa-file-alt\"></i>\n\n  Designacion de evaluaciones\n  </a>\n</nav>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-clipboard-check\"></i>\n   \n  Evaluacion (Evaluador)\n  </a>\n</nav>\n-->\n"
+module.exports = "  \n  <div class=\"container\">\n      <div class=\"row\">\n        \n            <div class=\"card-body text-white bg-dark mt-3 mb-3\" style=\"width: 12rem;\">\n\n          \n            <img class=\"card-img-top\" src=\"https://teuno.com/wp-content/uploads/2015/11/teuno-logo-slogan1.png\" alt=\"Card image cap\">\n\n        </div>\n\n        <div class=\"col-md-4\">\n          \n\n\n        </div>\n       \n        <div class=\"card-body text-white bg-danger mt-3 mb-3\" style=\"width: 12rem;\">\n            <img class=\"card-img-top\" src=\"https://www.adecco.com.ec/wp-content/themes/adecco-colombia/images/logo.svg\" alt=\"Card image cap\">\n\n        </div>\n        \n      </div>\n    </div>\n\n  <nav class=\"navbar navbar-expand-lg navbar navbar-dark bg-dark\">\n    <a class=\"navbar-brand\" href=\"#\">INICIO</a>\n    <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarSupportedContent\" aria-expanded=\"false\" aria-label=\"Toggle navigation\">\n      <span class=\"navbar-toggler-icon\"></span>\n    </button>\n  \n    <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n      <ul class=\"navbar-nav mr-auto\">\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"workpositions\">Cargos <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"persons\">Personas <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"indicadores\">Indicadores <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"competencias\">Competencias <span class=\"sr-only\">(current)</span></a>\n        </li>\n        <li class=\"nav-item active\">\n          <a class=\"nav-link\" href=\"test\">Evaluaciones <span class=\"sr-only\">(current)</span></a>\n        </li>\n      </ul>\n      <form class=\"form-inline my-2 my-lg-0\">\n        <input class=\"form-control mr-sm-2\" type=\"search\" placeholder=\"Search\" aria-label=\"Search\">\n        <button class=\"btn btn-outline-success my-2 my-sm-0\" type=\"submit\">Search</button>\n      </form>\n    </div>\n  </nav>\n  \n  \n  <router-outlet></router-outlet>\n\n<!--\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-briefcase\"></i>\n    Administración de cargos\n  </a>\n</nav>\n<app-workpositions></app-workpositions>\n\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-users\"></i>\n  Administración de Personas\n  </a>\n</nav>\n<app-persons></app-persons>\n\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-shopping-cart\"></i>\n   Administracion de Kpis\n   \n </a>\n</nav>\n<app-kpis></app-kpis>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-users\"></i>\n    Administracion de competencias\n  </a>\n</nav>\n<app-competencies></app-competencies>\n\n\n    <nav class=\"navbar navbar-dark bg-dark\">\n      <a href=\"/\" class=\"navbar-brand\">\n        <i class=\"fas fa-file-alt\"></i>\n\n  Designacion de evaluaciones\n  </a>\n</nav>\n\n<nav class=\"navbar navbar-dark bg-dark\">\n  <a href=\"/\" class=\"navbar-brand\">\n    <i class=\"fas fa-clipboard-check\"></i>\n   \n  Evaluacion (Evaluador)\n  </a>\n</nav>\n-->\n"
 
 /***/ }),
 
@@ -107,6 +107,13 @@ var AppComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_36__services_evaluadores_service__ = __webpack_require__("./src/app/services/evaluadores.service.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_37_ngx_pagination__ = __webpack_require__("./node_modules/ngx-pagination/dist/ngx-pagination.js");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_38__components_inicio_inicio_component__ = __webpack_require__("./src/app/components/inicio/inicio.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_39__components_test_test_component__ = __webpack_require__("./src/app/components/test/test.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_40__components_test_testcargos_testcargos_component__ = __webpack_require__("./src/app/components/test/testcargos/testcargos.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_41__components_test_testkpi_testkpi_component__ = __webpack_require__("./src/app/components/test/testkpi/testkpi.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_42__components_test_testperson_testperson_component__ = __webpack_require__("./src/app/components/test/testperson/testperson.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_43__components_test_testform_testform_component__ = __webpack_require__("./src/app/components/test/testform/testform.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_44__components_test_testlist_testlist_component__ = __webpack_require__("./src/app/components/test/testlist/testlist.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_45__services_test_service__ = __webpack_require__("./src/app/services/test.service.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -160,6 +167,13 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
+
+
+
+
+
+
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -186,7 +200,13 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_32__components_persons_evaluados_evaluados_component__["a" /* EvaluadosComponent */],
                 __WEBPACK_IMPORTED_MODULE_33__components_persons_matriz_list_matriz_list_component__["a" /* MatrizListComponent */],
                 __WEBPACK_IMPORTED_MODULE_35__components_persons_workpositionsperson_list_workpositionsperson_list_component__["a" /* WorkpositionspersonListComponent */],
-                __WEBPACK_IMPORTED_MODULE_38__components_inicio_inicio_component__["a" /* InicioComponent */]
+                __WEBPACK_IMPORTED_MODULE_38__components_inicio_inicio_component__["a" /* InicioComponent */],
+                __WEBPACK_IMPORTED_MODULE_39__components_test_test_component__["a" /* TestComponent */],
+                __WEBPACK_IMPORTED_MODULE_40__components_test_testcargos_testcargos_component__["a" /* TestcargosComponent */],
+                __WEBPACK_IMPORTED_MODULE_41__components_test_testkpi_testkpi_component__["a" /* TestkpiComponent */],
+                __WEBPACK_IMPORTED_MODULE_42__components_test_testperson_testperson_component__["a" /* TestpersonComponent */],
+                __WEBPACK_IMPORTED_MODULE_43__components_test_testform_testform_component__["a" /* TestformComponent */],
+                __WEBPACK_IMPORTED_MODULE_44__components_test_testlist_testlist_component__["a" /* TestlistComponent */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -210,7 +230,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_23__services_workposition_service__["a" /* WorkpositionService */],
                 __WEBPACK_IMPORTED_MODULE_27__services_competency_service__["a" /* CompetencyService */],
                 __WEBPACK_IMPORTED_MODULE_34__services_matriz_service__["a" /* MatrizService */],
-                __WEBPACK_IMPORTED_MODULE_36__services_evaluadores_service__["a" /* EvaluadoresService */]
+                __WEBPACK_IMPORTED_MODULE_36__services_evaluadores_service__["a" /* EvaluadoresService */],
+                __WEBPACK_IMPORTED_MODULE_45__services_test_service__["a" /* TestService */]
             ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_7__app_component__["a" /* AppComponent */]]
         })
@@ -234,6 +255,7 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_kpis_kpis_component__ = __webpack_require__("./src/app/components/kpis/kpis.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_competencies_competencies_component__ = __webpack_require__("./src/app/components/competencies/competencies.component.ts");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_inicio_inicio_component__ = __webpack_require__("./src/app/components/inicio/inicio.component.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__components_test_test_component__ = __webpack_require__("./src/app/components/test/test.component.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -247,13 +269,15 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
+
 var APP_ROUTES = [
     { path: '', redirectTo: 'inicio', pathMatch: 'full' },
     { path: 'inicio', component: __WEBPACK_IMPORTED_MODULE_6__components_inicio_inicio_component__["a" /* InicioComponent */] },
     { path: 'workpositions', component: __WEBPACK_IMPORTED_MODULE_2__components_workpositions_workpositions_component__["a" /* WorkpositionsComponent */] },
     { path: 'persons', component: __WEBPACK_IMPORTED_MODULE_3__components_persons_persons_component__["a" /* PersonsComponent */] },
     { path: 'indicadores', component: __WEBPACK_IMPORTED_MODULE_4__components_kpis_kpis_component__["a" /* KpisComponent */] },
-    { path: 'competencias', component: __WEBPACK_IMPORTED_MODULE_5__components_competencies_competencies_component__["a" /* CompetenciesComponent */] }
+    { path: 'competencias', component: __WEBPACK_IMPORTED_MODULE_5__components_competencies_competencies_component__["a" /* CompetenciesComponent */] },
+    { path: 'test', component: __WEBPACK_IMPORTED_MODULE_7__components_test_test_component__["a" /* TestComponent */] }
 ];
 var AppRoutingModule = /** @class */ (function () {
     function AppRoutingModule() {
@@ -615,7 +639,7 @@ module.exports = ""
 /***/ "./src/app/components/kpis/kpi-list/kpi-list.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> Lista de Kpis</h6>\n\n    <nav class=\"navbar\">\n      <input class=\"form-control\" type=\"text\" name=\"search\" [(ngModel)]=\"filter\">      \n    </nav>\n    <table class=\"table table-sm table-hover\">\n      <thead class=\"thead-light\">\n        <tr>\n          <th scope=\"col\">Indicador Macro</th>\n          <th scope=\"col\">Indicador por proceso</th>\n          <th scope=\"col\">Indicador</th>\n          \n          <th scope=\"col\">Cargo</th>\n        </tr>\n      </thead>\n      <tbody>\n          <tr *ngFor =\"let kpi of kpiList |filter:filter |paginate: { itemsPerPage: 10, currentPage: p11, id: 'eleven' }; let i = index\">\n          \n          \n          <td>{{kpi.indicadorMacro}}</td> \n          <td>{{kpi.indicadorProceso}}</td> \n          <td>{{kpi.indicador}}</td>\n          \n          <td>{{kpi.cargo}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(kpi)\">\n              <i class=\"far fa-edit\"></i>\n      \n            </a>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(kpi.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n                       </a>\n          </td>\n\n        </tr>\n      </tbody>\n      <pagination-controls (pageChange)=\"p11 =$event\" id=\"eleven\"></pagination-controls>\n    </table>\n  </div>\n</div>"
+module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> Lista de Kpis</h6>\n\n    <nav class=\"navbar\">\n      <input class=\"form-control\" type=\"text\" name=\"search\" [(ngModel)]=\"filter\">      \n    </nav>\n    <table class=\"table table-sm table-hover\">\n      <thead class=\"thead-light\">\n        <tr>\n          <th scope=\"col\">Indicador Macro</th>\n          <th scope=\"col\">Indicador por proceso</th>\n          <th scope=\"col\">Indicador</th>\n          \n          <th scope=\"col\">Cargo</th>\n        </tr>\n      </thead>\n      <tbody>\n          <tr *ngFor =\"let kpi of kpiList |filter:filter |paginate: { itemsPerPage: 10, currentPage: p11, id: 'eleven' }; let i = index\">\n          \n          \n          <td>{{kpi.indicadorMacro}}</td> \n          <td>{{kpi.indicadorProceso}}</td> \n          <td>{{kpi.indicador}}</td>\n          \n          <td>{{kpi.cargo}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(kpi)\">\n              <i class=\"far fa-edit\"></i>\n      \n            </a>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(kpi.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n                       </a>\n          </td>\n\n        </tr>\n      </tbody>\n      \n    </table>\n    <pagination-controls (pageChange)=\"p11 =$event\" id=\"eleven\"></pagination-controls>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -1224,7 +1248,7 @@ module.exports = ""
 /***/ "./src/app/components/persons/person/person.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"card mt-5 mb-5 bg-light\">\n  <div class=\"card-body\">\n    <form #personForm=\"ngForm\" (ngSubmit)=\"onSubmit(personForm)\">\n      <input type=\"hidden\" name=\"$key\" #$key=\"ngModel\" [(ngModel)]=\"personService.selectedPerson.$key\">\n\n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"cedula\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.cedula\"\n          placeholder=\"Agrega el numero de cedula\"\n        >\n      </div>\n\n      <div class=\"form-group\">\n          <input \n            type=\"text\"\n            class=\"form-control\" \n            name=\"name\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.name\"\n            placeholder=\"Agrega el nombre de la persona\"\n          >\n      </div>\n<!--readonly-->\n      <div class=\"form-group\">\n            <input \n              type=\"text\"\n              class=\"form-control\" \n              name=\"cargo\"\n              #name=\"ngModel\"\n              [(ngModel)]=\"personService.selectedPerson.cargo\"\n              placeholder=\"Selecciona un cargo de la Lista\"\n            >\n      </div>\n\n      <div class=\"form-group\">\n          <input \n            type=\"text\"\n            class=\"form-control\" \n            name=\"estructurafisicacostos\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.estructurafisicacostos\"\n            placeholder=\"Agrega la estructura física de costos\"\n          >\n        </div>\n\n        <div class=\"form-group\">\n            <input \n              type=\"text\"\n              class=\"form-control\" \n              name=\"estructuraorganizacional\"\n              #name=\"ngModel\"\n              [(ngModel)]=\"personService.selectedPerson.estructuraorganizacional\"\n              placeholder=\"Agrega la estructura organizacional\"\n            >\n          </div>\n\n        \n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"area\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.area\"\n          placeholder=\"Agrega el area\"\n        >\n      </div>\n\n\n      <div class=\"form-group\">\n          <input  \n            type=\"text\"\n            class=\"form-control\" \n            name=\"ciudad\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.ciudad\"\n            placeholder=\"Selecciona una sucursal\"\n          >\n        </div>\n      \n      \n      \n      \n<!--\n\n\n \n\n\n      <div class=\"input-group mb-3\">\n          <div class=\"input-group-prepend\">\n            <label class=\"input-group-text\" for=\"inputGroupSelect01\">Ciudad</label>\n          </div>\n          <select name=\"ciudad\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.ciudad\"\n          class=\"custom-select\">\n            <option value=\"Quito\">Quito</option>\n            <option value=\"Guayaquil\">Guayaquil</option>\n            <option value=\"Cuenca\">Cuenca</option>\n            <option value=\"Loja\">Loja</option>\n            <option value=\"Napo\">Napo</option>\n          </select>\n        </div>\n\n        <div class=\"col-sm-10 mb-3 mt-6\">\n          <div class=\"form-check mt-4\">\n            <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios1\" value=\"false\" checked  name=\"evaluador\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.evaluador\">\n            <label class=\"form-check-label\" for=\"gridRadios1\">\n              Evaluado\n            </label>\n          </div>\n          <div class=\"form-check\">\n            <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios2\" value=\"true\"  name=\"evaluador\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.evaluador\">\n            <label class=\"form-check-label\" for=\"gridRadios2\">\n              Evaluador\n            </label>\n          </div>\n        </div>\n        -->\n     \n\n    \n      <div class=\"form-group\">\n        <button class=\"btn btn-primary\" type=\"submit\">\n          <i class=\"fas fa-plus-circle\"></i> Agregar\n        </button>\n        <button class=\"btn btn-secondary\" type=\"reset\" (click)=\"resetForm(personForm)\">\n          <i class=\"fas fa-sync-alt\"></i> Limpiar\n        </button>\n        </div>\n    </form>\n  </div>\n</div>\n"
+module.exports = "<div class=\"card mt-5 mb-5 bg-light\">\n  <div class=\"card-body\">\n    <form #personForm=\"ngForm\" (ngSubmit)=\"onSubmit(personForm)\">\n      <input type=\"hidden\" name=\"$key\" #$key=\"ngModel\" [(ngModel)]=\"personService.selectedPerson.$key\">\n\n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"cedula\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.cedula\"\n          placeholder=\"Agrega el numero de cedula\"\n        >\n      </div>\n\n      <div class=\"form-group\">\n          <input \n            type=\"text\"\n            class=\"form-control\" \n            name=\"name\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.name\"\n            placeholder=\"Agrega el nombre de la persona\"\n          >\n      </div>\n<!--readonly-->\n      <div class=\"form-group\">\n            <input \n            readonly\n              type=\"text\"\n              class=\"form-control\" \n              name=\"cargo\"\n              #name=\"ngModel\"\n              [(ngModel)]=\"personService.selectedPerson.cargo\"\n              placeholder=\"Selecciona un cargo de la Lista\"\n            >\n      </div>\n\n      <div class=\"form-group\">\n          <input \n            type=\"text\"\n            class=\"form-control\" \n            name=\"estructurafisicacostos\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.estructurafisicacostos\"\n            placeholder=\"Agrega la estructura física de costos\"\n          >\n        </div>\n\n        <div class=\"form-group\">\n            <input \n              type=\"text\"\n              class=\"form-control\" \n              name=\"estructuraorganizacional\"\n              #name=\"ngModel\"\n              [(ngModel)]=\"personService.selectedPerson.estructuraorganizacional\"\n              placeholder=\"Agrega la estructura organizacional\"\n            >\n          </div>\n\n        \n      <div class=\"form-group\">\n        <input \n          type=\"text\"\n          class=\"form-control\" \n          name=\"area\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.area\"\n          placeholder=\"Agrega el area\"\n        >\n      </div>\n\n\n      <div class=\"form-group\">\n          <input  \n            type=\"text\"\n            class=\"form-control\" \n            name=\"ciudad\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.ciudad\"\n            placeholder=\"Selecciona una sucursal\"\n          >\n        </div>\n      \n      \n      \n      \n<!--\n\n\n \n\n\n      <div class=\"input-group mb-3\">\n          <div class=\"input-group-prepend\">\n            <label class=\"input-group-text\" for=\"inputGroupSelect01\">Ciudad</label>\n          </div>\n          <select name=\"ciudad\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"personService.selectedPerson.ciudad\"\n          class=\"custom-select\">\n            <option value=\"Quito\">Quito</option>\n            <option value=\"Guayaquil\">Guayaquil</option>\n            <option value=\"Cuenca\">Cuenca</option>\n            <option value=\"Loja\">Loja</option>\n            <option value=\"Napo\">Napo</option>\n          </select>\n        </div>\n\n        <div class=\"col-sm-10 mb-3 mt-6\">\n          <div class=\"form-check mt-4\">\n            <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios1\" value=\"false\" checked  name=\"evaluador\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.evaluador\">\n            <label class=\"form-check-label\" for=\"gridRadios1\">\n              Evaluado\n            </label>\n          </div>\n          <div class=\"form-check\">\n            <input class=\"form-check-input\" type=\"radio\" name=\"gridRadios\" id=\"gridRadios2\" value=\"true\"  name=\"evaluador\"\n            #name=\"ngModel\"\n            [(ngModel)]=\"personService.selectedPerson.evaluador\">\n            <label class=\"form-check-label\" for=\"gridRadios2\">\n              Evaluador\n            </label>\n          </div>\n        </div>\n        -->\n     \n\n    \n      <div class=\"form-group\">\n        <button class=\"btn btn-primary\" type=\"submit\">\n          <i class=\"fas fa-plus-circle\"></i> Agregar\n        </button>\n        <button class=\"btn btn-secondary\" type=\"reset\" (click)=\"resetForm(personForm)\">\n          <i class=\"fas fa-sync-alt\"></i> Limpiar\n        </button>\n        </div>\n    </form>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -1511,6 +1535,469 @@ var WorkpositionspersonListComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/components/test/test.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/components/test/test.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"container\">\n  <div class=\"row\">\n    <div class=\"col-md-12 text-center\">\n      <app-testcargos></app-testcargos>\n    </div>\n    \n  </div>\n\n  <div class=\"row\">\n    <div class=\"col-md-6 text-center\">\n      <app-testkpi></app-testkpi>\n    </div>\n   \n    <div class=\"col-md-6 text-center\">\n      <app-testperson></app-testperson>\n    </div>\n  </div>\n  <div class=\"row\">\n    <div class=\"col-md-12 text-center\">\n      <app-testform></app-testform>\n    </div>\n    <div class=\"col-md-12 text-center\">\n      <app-testlist></app-testlist>\n    </div>\n    \n   \n  \n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/components/test/test.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TestComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var TestComponent = /** @class */ (function () {
+    function TestComponent() {
+    }
+    TestComponent.prototype.ngOnInit = function () {
+    };
+    TestComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-test',
+            template: __webpack_require__("./src/app/components/test/test.component.html"),
+            styles: [__webpack_require__("./src/app/components/test/test.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], TestComponent);
+    return TestComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/test/testcargos/testcargos.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/components/test/testcargos/testcargos.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card mt-3 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> LISTA DE CARGOS</h6>\n    \n    <nav class=\"navbar\">\n        <input class=\"form-control\" type=\"text\" name=\"search\" [(ngModel)]=\"filter\">      \n      </nav>\n    <table class=\"table table-sm table-hover table-light\">\n      <tbody>\n            <thead>\n                <tr>\n                </tr>\n              </thead>\n          <tr *ngFor =\"let workposition of workpositionsList |filter:filter |paginate: { itemsPerPage: 5, currentPage: p21, id: 'veinteuno' }; let i = index\">\n          <td>{{workposition.name}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(workposition.name)\">\n              <i class=\"far fa-edit\"></i>\n            \n            </a>\n            \n          </td>\n\n        </tr>\n      </tbody>\n      <pagination-controls (pageChange)=\"p21 = $event\" id=\"veinteuno\"></pagination-controls>\n    </table>\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/components/test/testcargos/testcargos.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TestcargosComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_workposition_service__ = __webpack_require__("./src/app/services/workposition.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_test_service__ = __webpack_require__("./src/app/services/test.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/esm5/ngx-toastr.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+//service
+
+//toastr
+
+//toastr
+
+var TestcargosComponent = /** @class */ (function () {
+    function TestcargosComponent(workpositionService, testService, toastr) {
+        this.workpositionService = workpositionService;
+        this.testService = testService;
+        this.toastr = toastr;
+        this.p21 = 1;
+    }
+    TestcargosComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.workpositionService.getWorkposition()
+            .snapshotChanges()
+            .subscribe(function (item) {
+            _this, _this.workpositionsList = [];
+            item.forEach(function (element) {
+                var x = element.payload.toJSON();
+                x["$key"] = element.key;
+                _this.workpositionsList.push(x);
+            });
+        });
+    };
+    TestcargosComponent.prototype.onEdit = function (cargo) {
+        this.testService.selectedTest.cargo = cargo;
+    };
+    TestcargosComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-testcargos',
+            template: __webpack_require__("./src/app/components/test/testcargos/testcargos.component.html"),
+            styles: [__webpack_require__("./src/app/components/test/testcargos/testcargos.component.css")]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_workposition_service__["a" /* WorkpositionService */],
+            __WEBPACK_IMPORTED_MODULE_2__services_test_service__["a" /* TestService */],
+            __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__["b" /* ToastrService */]])
+    ], TestcargosComponent);
+    return TestcargosComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/test/testform/testform.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/components/test/testform/testform.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card mt-5 mb-5 bg-light\">\n  <div class=\"card-body\">\n    <form #testForm=\"ngForm\" (ngSubmit)=\"onSubmit(testForm)\">\n     <input type=\"hidden\" name=\"$key\" #$key=\"ngModel\" [(ngModel)]=\"testService.selectedTest.$key\">\n      \n\n      \n\n      <div class=\"form-group\">\n        <input \n      readonly\n          type=\"text\"\n          class=\"form-control\" \n          name=\"cargo\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"testService.selectedTest.cargo\"\n          placeholder=\"Selecciona el cargo de la lista\"\n        >\n      </div>\n\n    \n      <div class=\"form-group\">\n        <input \n        readonly\n          type=\"text\"\n          class=\"form-control\" \n          name=\"nombre\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"testService.selectedTest.nombre\"\n          placeholder=\"Selecciona una persona de la lista\"\n        >\n      </div>\n      <input type=\"hidden\" name=\"cedula\" #$key=\"ngModel\" [(ngModel)]=\"testService.selectedTest.cedula\">\n  \n <h6>Ingreso del valor Objetivo</h6>\n      <div class=\"form-group\">\n        <input \n        readonly\n          type=\"text\"\n          class=\"form-control\" \n          name=\"objetivo\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"testService.selectedTest.objetivo\"\n          placeholder=\"Selecciona un indicador de la lista\"\n        >\n      </div>\n\n      <div class=\"form-group\">\n        <input \n       \n          type=\"text\"\n          class=\"form-control\" \n          name=\"objetivoVal\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"testService.selectedTest.objetivoVal\"\n          placeholder=\"Ingresa el valor objetivo\"\n        >\n      </div>\n\n      <h6>Ingreso del valor cumplido</h6>\n      <div class=\"form-group\">\n        <input \n        readonly\n          type=\"text\"\n          class=\"form-control\" \n          name=\"cumplimiento\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"testService.selectedTest.cumplimiento\"\n          placeholder=\"Selecciona un indicador de la lista\"\n        >\n      </div>\n\n      <div class=\"form-group\">\n        <input \n        \n          type=\"text\"\n          class=\"form-control\" \n          name=\"cumplimientoVal\"\n          #name=\"ngModel\"\n          [(ngModel)]=\"testService.selectedTest.cumplimientoVal\"\n          placeholder=\"Ingresa el valor cumplido\"\n        >\n      </div>\n      <input type=\"hidden\" name=\"calculo\" #$key=\"ngModel\" [(ngModel)]=\"testService.selectedTest.calculo\">\n   \n      \n      <div class=\"form-group\">\n        <button class=\"btn btn-primary\" type=\"submit\">\n          <i class=\"fas fa-plus-circle\"></i> Agregar Evaluación \n        </button>\n        <button class=\"btn btn-secondary\" type=\"reset\" (click)=\"resetForm(testForm)\">\n          <i class=\"fas fa-sync-alt\"></i> Limpiar\n        </button>\n        </div>\n    </form>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/components/test/testform/testform.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TestformComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_test_service__ = __webpack_require__("./src/app/services/test.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/esm5/ngx-toastr.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__models_test__ = __webpack_require__("./src/app/models/test.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+//Service
+
+
+//Person class
+
+var TestformComponent = /** @class */ (function () {
+    function TestformComponent(testService, toastr) {
+        this.testService = testService;
+        this.toastr = toastr;
+    }
+    TestformComponent.prototype.ngOnInit = function () {
+        this.testService.getTest();
+        this.resetForm();
+    };
+    TestformComponent.prototype.resetForm = function (personForm) {
+        if (personForm != null)
+            personForm.reset();
+        this.testService.selectedTest = new __WEBPACK_IMPORTED_MODULE_3__models_test__["a" /* Test */]();
+    };
+    TestformComponent.prototype.onSubmit = function (testForm) {
+        if (testForm.value.calculo == "D") {
+            testForm.value.porcentaje = Math.round((testForm.value.objetivoVal / testForm.value.cumplimientoVal) * 100);
+        }
+        else {
+            testForm.value.porcentaje = (testForm.value.cumplimientoVal / testForm.value.objetivoVal) * 100;
+        }
+        if (testForm.value.porcentaje > 75) {
+            testForm.value.color = "1";
+        }
+        if (testForm.value.porcentaje < 75) {
+            if (testForm.value.porcentaje > 40) {
+                testForm.value.color = "2";
+            }
+        }
+        if (testForm.value.porcentaje <= 40) {
+            if (testForm.value.porcentaje >= 0) {
+                testForm.value.color = "3";
+            }
+        }
+        this.testService.insertTest(testForm.value);
+        this.toastr.success('Operación Existosa', 'Nueva evaluacion Agregado');
+        this.resetForm(testForm);
+    };
+    TestformComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-testform',
+            template: __webpack_require__("./src/app/components/test/testform/testform.component.html"),
+            styles: [__webpack_require__("./src/app/components/test/testform/testform.component.css")]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_test_service__["a" /* TestService */],
+            __WEBPACK_IMPORTED_MODULE_2_ngx_toastr__["b" /* ToastrService */]])
+    ], TestformComponent);
+    return TestformComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/test/testkpi/testkpi.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/components/test/testkpi/testkpi.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> Lista de Kpis</h6>\n\n    <nav class=\"navbar\">\n      <input class=\"form-control\" type=\"text\" name=\"search\" [(ngModel)]=\"filter\">    \n      <!--testService.selectedTest.cargo\n      -->  \n    </nav>\n    <table class=\"table table-sm table-hover\">\n      <thead class=\"thead-light\">\n        <tr>\n        \n        </tr>\n      </thead>\n      <tbody>\n          <tr *ngFor =\"let kpi of kpiList |filter:filter |paginate: { itemsPerPage: 6, currentPage: p22, id: 'vdos' }; let i = index\">\n \n          <td>{{kpi.indicador}}</td>\n          \n          <td>{{kpi.cargo}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(kpi)\">\n              <i class=\"far fa-edit\"></i>      \n            </a>            \n          </td>\n        </tr>\n      </tbody>\n      \n    </table>\n    <pagination-controls (pageChange)=\"p22 =$event\" id=\"vdos\"></pagination-controls>\n  </div>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/components/test/testkpi/testkpi.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TestkpiComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_kpi_service__ = __webpack_require__("./src/app/services/kpi.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_test_service__ = __webpack_require__("./src/app/services/test.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/esm5/ngx-toastr.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+//service
+
+
+//toastr
+
+var TestkpiComponent = /** @class */ (function () {
+    function TestkpiComponent(kpiService, testService, toastr) {
+        this.kpiService = kpiService;
+        this.testService = testService;
+        this.toastr = toastr;
+        this.p22 = 1;
+    }
+    TestkpiComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.kpiService.getKpis()
+            .snapshotChanges()
+            .subscribe(function (item) {
+            _this, _this.kpiList = [];
+            item.forEach(function (element) {
+                var x = element.payload.toJSON();
+                x["$key"] = element.key;
+                _this.kpiList.push(x);
+            });
+        });
+    };
+    TestkpiComponent.prototype.onEdit = function (kpi) {
+        this.testService.selectedTest.cumplimiento = kpi.cumplimiento;
+        this.testService.selectedTest.objetivo = kpi.objetivo;
+        this.testService.selectedTest.calculo = kpi.calculo;
+    };
+    TestkpiComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-testkpi',
+            template: __webpack_require__("./src/app/components/test/testkpi/testkpi.component.html"),
+            styles: [__webpack_require__("./src/app/components/test/testkpi/testkpi.component.css")]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_kpi_service__["a" /* KpiService */],
+            __WEBPACK_IMPORTED_MODULE_2__services_test_service__["a" /* TestService */],
+            __WEBPACK_IMPORTED_MODULE_3_ngx_toastr__["b" /* ToastrService */]])
+    ], TestkpiComponent);
+    return TestkpiComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/test/testlist/testlist.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/components/test/testlist/testlist.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"test-center\"> Lista de Evaluaciones</h6>\n\n    \n    <table class=\"table table-sm table-hover\">\n      \n      <tbody *ngFor =\"let test of testList\">\n        \n        \n        <tr class=\"bg-success\" *ngIf=\"test.color == 1\">\n          \n          <td>{{test.cargo}}</td>\n          <td>{{test.nombre}}</td> \n          <td>{{test.objetivo}}</td>\n          <td>{{test.porcentaje}}%</td>\n         \n        </tr>\n        <tr class=\"bg-warning\" *ngIf=\"test.color == 2\">\n          \n            <td>{{test.cargo}}</td>\n            <td>{{test.nombre}}</td> \n            <td>{{test.objetivo}}</td>\n            <td>{{test.porcentaje}}%</td>\n           \n          </tr>\n\n          <tr class=\"bg-danger\" *ngIf=\"test.color == 3\">\n          \n              <td>{{test.cargo}}</td>\n              <td>{{test.nombre}}</td> \n              <td>{{test.objetivo}}</td>\n              <td>{{test.porcentaje}}%</td>\n             \n            </tr>\n       \n\n\n\n      \n    \n      \n    \n          <!--\n            <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(kpi)\">\n              <i class=\"far fa-edit\"></i>\n      \n            </a>\n            <a class=\"btn btn-danger text-white\" (click)=\"onDelete(kpi.$key)\" >\n              <i class=\"fas fa-trash-alt\"></i>\n                       </a>\n          </td> -->\n\n        \n      </tbody>\n      \n    </table>\n    \n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/components/test/testlist/testlist.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TestlistComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_test_service__ = __webpack_require__("./src/app/services/test.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/esm5/ngx-toastr.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+//service
+
+//toastr
+
+var TestlistComponent = /** @class */ (function () {
+    function TestlistComponent(testService, toastr) {
+        this.testService = testService;
+        this.toastr = toastr;
+    }
+    TestlistComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.testService.getTest()
+            .snapshotChanges()
+            .subscribe(function (item) {
+            _this, _this.testList = [];
+            item.forEach(function (element) {
+                var x = element.payload.toJSON();
+                x["$key"] = element.key;
+                _this.testList.push(x);
+            });
+        });
+    };
+    TestlistComponent.prototype.onEdit = function (test) {
+        this.testService.selectedTest = Object.assign({}, test);
+    };
+    TestlistComponent.prototype.onDelete = function ($key) {
+        if (confirm('Seguro que desea eliminar a este Eva permanentemente?')) {
+            this.testService.deletetest($key);
+            this.toastr.success('Operacion Completada', 'Eva Eliminado');
+        }
+    };
+    TestlistComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-testlist',
+            template: __webpack_require__("./src/app/components/test/testlist/testlist.component.html"),
+            styles: [__webpack_require__("./src/app/components/test/testlist/testlist.component.css")]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_test_service__["a" /* TestService */],
+            __WEBPACK_IMPORTED_MODULE_2_ngx_toastr__["b" /* ToastrService */]])
+    ], TestlistComponent);
+    return TestlistComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/components/test/testperson/testperson.component.css":
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/components/test/testperson/testperson.component.html":
+/***/ (function(module, exports) {
+
+module.exports = "<div class=\"card mt-5 mb-5\">\n  <div class=\"card-body\">\n    <h6 class=\"text-center\"> Lista de Personas</h6>\n    <nav class=\"navbar\">\n        <input  readonly class=\"form-control\" type=\"text\" name=\"search\" [(ngModel)]=\"testService.selectedTest.cargo\">  \n        \n        \n      </nav>\n    <table class=\"table table-sm table-hover\">\n      \n      <tbody>\n          <tr *ngFor =\"let person of personList| filter:testService.selectedTest.cargo |  paginate: { itemsPerPage: 5, currentPage: p23, id: 'vtres' }; let i = index\">\n          <td>{{person.name}}</td>\n          <td>{{person.cargo}}</td> \n          <td>{{person.cedula}}</td>\n          <td>\n            <a class=\"btn btn-secondary text-white\" (click)=\"onEdit(person)\">\n              <i class=\"far fa-edit\"></i>\n            \n            </a>\n            \n          </td>\n          \n\n        </tr>\n      </tbody>\n      \n      \n    \n    </table>\n    <pagination-controls (pageChange)=\"p23 = $event\" id=\"vtres\"></pagination-controls>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/components/test/testperson/testperson.component.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TestpersonComponent; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__services_person_service__ = __webpack_require__("./src/app/services/person.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__services_test_service__ = __webpack_require__("./src/app/services/test.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__services_evaluadores_service__ = __webpack_require__("./src/app/services/evaluadores.service.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_ngx_toastr__ = __webpack_require__("./node_modules/ngx-toastr/esm5/ngx-toastr.js");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+//service
+
+
+
+//toastr
+
+var TestpersonComponent = /** @class */ (function () {
+    function TestpersonComponent(personService, testService, evaluadoresService, toastr) {
+        this.personService = personService;
+        this.testService = testService;
+        this.evaluadoresService = evaluadoresService;
+        this.toastr = toastr;
+        this.p23 = 1;
+    }
+    TestpersonComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.personService.getPersons()
+            .snapshotChanges()
+            .subscribe(function (item) {
+            _this, _this.personList = [];
+            item.forEach(function (element) {
+                var x = element.payload.toJSON();
+                x["$key"] = element.key;
+                _this.personList.push(x);
+            });
+        });
+    };
+    TestpersonComponent.prototype.onEdit = function (person) {
+        this.testService.selectedTest.nombre = person.name;
+        this.testService.selectedTest.cedula = person.cedula;
+    };
+    TestpersonComponent = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
+            selector: 'app-testperson',
+            template: __webpack_require__("./src/app/components/test/testperson/testperson.component.html"),
+            styles: [__webpack_require__("./src/app/components/test/testperson/testperson.component.css")]
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__services_person_service__["a" /* PersonService */],
+            __WEBPACK_IMPORTED_MODULE_2__services_test_service__["a" /* TestService */],
+            __WEBPACK_IMPORTED_MODULE_3__services_evaluadores_service__["a" /* EvaluadoresService */],
+            __WEBPACK_IMPORTED_MODULE_4_ngx_toastr__["b" /* ToastrService */]])
+    ], TestpersonComponent);
+    return TestpersonComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/components/workpositions/workposition/workposition.component.css":
 /***/ (function(module, exports) {
 
@@ -1774,6 +2261,21 @@ var Person = /** @class */ (function () {
     function Person() {
     }
     return Person;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/models/test.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return Test; });
+var Test = /** @class */ (function () {
+    function Test() {
+    }
+    return Test;
 }());
 
 
@@ -2081,6 +2583,78 @@ var PersonService = /** @class */ (function () {
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_angularfire2_database__["a" /* AngularFireDatabase */]])
     ], PersonService);
     return PersonService;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/services/test.service.ts":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TestService; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("./node_modules/@angular/core/esm5/core.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_angularfire2_database__ = __webpack_require__("./node_modules/angularfire2/database/index.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__models_test__ = __webpack_require__("./src/app/models/test.ts");
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+//Firebase
+
+//clase test
+
+var TestService = /** @class */ (function () {
+    function TestService(firebase) {
+        this.firebase = firebase;
+        this.selectedTest = new __WEBPACK_IMPORTED_MODULE_2__models_test__["a" /* Test */]();
+    }
+    TestService.prototype.getTest = function () {
+        return this.testList = this.firebase.list('tests');
+    };
+    TestService.prototype.insertTest = function (test) {
+        this.testList.push({
+            cargo: test.cargo,
+            objetivo: test.objetivo,
+            cumplimiento: test.cumplimiento,
+            calculo: test.calculo,
+            porcentaje: test.porcentaje,
+            objetivoVal: test.objetivoVal,
+            cumplimientoVal: test.cumplimientoVal,
+            cedula: test.cedula,
+            nombre: test.nombre,
+            color: test.color
+        });
+    };
+    TestService.prototype.updateTest = function (test) {
+        this.testList.update(test.$key, {
+            cargo: test.cargo,
+            objetivo: test.objetivo,
+            cumplimiento: test.cumplimiento,
+            calculo: test.calculo,
+            porcentaje: test.porcentaje,
+            objetivoVal: test.objetivoVal,
+            cumplimientoVal: test.cumplimientoVal,
+            cedula: test.cedula,
+            nombre: test.nombre,
+            color: test.color
+        });
+    };
+    TestService.prototype.deletetest = function ($key) {
+        this.testList.remove($key);
+    };
+    TestService = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Injectable"])(),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_angularfire2_database__["a" /* AngularFireDatabase */]])
+    ], TestService);
+    return TestService;
 }());
 
 

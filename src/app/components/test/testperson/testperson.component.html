@@ -1,0 +1,33 @@
+<div class="card mt-5 mb-5">
+  <div class="card-body">
+    <h6 class="text-center"> Lista de Personas</h6>
+    <nav class="navbar">
+        <input  readonly class="form-control" type="text" name="search" [(ngModel)]="testService.selectedTest.cargo">  
+        
+        
+      </nav>
+    <table class="table table-sm table-hover">
+      
+      <tbody>
+          <tr *ngFor ="let person of personList| filter:testService.selectedTest.cargo |  paginate: { itemsPerPage: 5, currentPage: p23, id: 'vtres' }; let i = index">
+          <td>{{person.name}}</td>
+          <td>{{person.cargo}}</td> 
+          <td>{{person.cedula}}</td>
+          <td>
+            <a class="btn btn-secondary text-white" (click)="onEdit(person)">
+              <i class="far fa-edit"></i>
+            
+            </a>
+            
+          </td>
+          
+
+        </tr>
+      </tbody>
+      
+      
+    
+    </table>
+    <pagination-controls (pageChange)="p23 = $event" id="vtres"></pagination-controls>
+  </div>
+</div>

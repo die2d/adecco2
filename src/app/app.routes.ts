@@ -7,6 +7,7 @@ import { PersonsComponent } from './components/persons/persons.component';
 import { KpisComponent } from './components/kpis//kpis.component';
 import { CompetenciesComponent } from './components/competencies/competencies.component';
 import { InicioComponent } from './components/inicio/inicio.component';
+import {TestComponent} from './components/test/test.component';
 
 const APP_ROUTES: Routes = [
     { path: '', redirectTo: 'inicio', pathMatch: 'full' },
@@ -14,7 +15,8 @@ const APP_ROUTES: Routes = [
     { path: 'workpositions', component: WorkpositionsComponent },
     { path: 'persons', component: PersonsComponent },
     { path: 'indicadores', component: KpisComponent },
-    { path: 'competencias', component: CompetenciesComponent }
+    { path: 'competencias', component: CompetenciesComponent },
+    { path: 'test', component: TestComponent }
 
 
 ];
